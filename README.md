@@ -2,7 +2,7 @@
 This course is a great introduction to both fundamental programming concepts and the Python programming language. 
 By the end, you'll be familiar with Python syntax and you'll be able to put into practice what you'll have learned in a final project you'll develop locally.
 
-# Whindows Installation 
+# Windows Installation 
 ## Python Download
 
 https://www.python.org/downloads/release/python-362/
@@ -22,3 +22,17 @@ The script will explain what changes it will make and prompt you before the inst
 Now, we can install Python 3:
 
 `$ brew install python3`
+
+# Projects
+## Project Design (Choose one of them)**
+
+   ### Automation Testing
+        Selenium Automation testing with Python
+        facebook_login_page_test.py
+    
+   ### Stock Market Prediction in Python
+        The aim of the project is to predict whether future daily returns of a S&P 500 are going to be positive or negative.
+    
+   ### Bitcoin/Digital currency Automated Trading  
+       Professional algorithmic trading solution to support automated Bitcoin/Digital currency trading
+       fetch_bitcoin_price.py
