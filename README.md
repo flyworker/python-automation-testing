@@ -34,6 +34,8 @@ Now, we can install Python 3:
         The aim of the project is to predict whether future daily returns of a S&P 500 
         are going to be positive or negative.
         predicting_stock_price.py
+   ![Stock Market Prediction](./document/predicting_stock_price.jpeg?raw=true "Stock Market Prediction")
+   
    ### Bitcoin/Digital currency Automated Trading  
        Professional algorithmic trading solution to support automated Bitcoin/Digital currency trading
        fetch_bitcoin_price.py
