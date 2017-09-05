@@ -22,7 +22,7 @@
     Stock Market Prediction in Python
         The aim of the project is to predict whether future daily returns of a S&P 500 are going to be positive or negative.
     
-    Bitcon/Digital currency Automated Trading  
+    Bitcoin/Digital currency Automated Trading  
          Professional algorithmic trading solution to support automated Bitcoin/Digital currency trading
 Reference:
     http://francescopochetti.com/stock-market-prediction-part-introduction/
