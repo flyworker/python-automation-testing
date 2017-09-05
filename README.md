@@ -31,8 +31,9 @@ Now, we can install Python 3:
         facebook_login_page_test.py
     
    ### Stock Market Prediction in Python
-        The aim of the project is to predict whether future daily returns of a S&P 500 are going to be positive or negative.
-    
+        The aim of the project is to predict whether future daily returns of a S&P 500 
+        are going to be positive or negative.
+        predicting_stock_price.py
    ### Bitcoin/Digital currency Automated Trading  
        Professional algorithmic trading solution to support automated Bitcoin/Digital currency trading
        fetch_bitcoin_price.py
