@@ -5,7 +5,19 @@ By the end, you'll be familiar with Python syntax and you'll be able to put into
 # Windows Installation 
 ## Python Download
 
-https://www.python.org/downloads/release/python-362/
+`https://www.python.org/downloads/release/python-362`
+
+# Pycharm Download 
+
+If you are in ECV, you could use the following address
+
+## Windows User
+
+`http://192.168.88.187:8080/pycharm.exe`
+
+## Mac User
+
+`http://192.168.88.187:8080/pycharm.dmg`
 
 #  Mac OS X Installation
 
