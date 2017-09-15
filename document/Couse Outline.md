@@ -12,6 +12,7 @@
     Classes and Objects
     Dictionaries
     Modules and Packages
+    Database and queries
 
 
 **Project Design (Choose one of them)**
@@ -19,8 +20,9 @@
     Automation Testing
         Selenium Automation testing with Python
     
-    Stock Market Prediction in Python
-        The aim of the project is to predict whether future daily returns of a S&P 500 are going to be positive or negative.
+    ### Market Basket Analysis in Python 
+        There are many data analysis tools available to the python analyst and it can be challenging to know which ones to use in a particular situation. A useful (but somewhat overlooked) technique is called association 
+        analysis which attempts to find common patterns of items in large data sets.
     
     Bitcoin/Digital currency Automated Trading  
          Professional algorithmic trading solution to support automated Bitcoin/Digital currency trading

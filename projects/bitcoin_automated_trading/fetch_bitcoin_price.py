@@ -1,6 +1,11 @@
 import json
 import requests
-# URL: https://api.kraken.com/0/public/Ticker
+'''
+URL: https://api.kraken.com/0/public/Ticker
+to get the price
+
+'''
+
 
 def krak(ticker):
     uri = "https://api.kraken.com/0/public/Ticker"
