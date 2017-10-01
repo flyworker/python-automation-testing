@@ -55,11 +55,14 @@ def read_data():
     # rules = association_rules(frequent_itemsets, metric="lift", min_threshold=1.2)
     # print(rules)
     # Open database connection
-    db = pymysql.connect("localhost", "root", "oracle9i", "walmart")
     engine = create_engine('mysql+pymysql://root:oracle9i@localhost:3306/walmart')
 
     df = pd.read_sql_query('SELECT * FROM sales_order', engine)
-    df.head()
+    print(df)
+    print(df.index)
+    print(df.describe())
+
+
     df['Description'] = df['Description'].str.strip()
     df.dropna(axis=0, subset=['InvoiceNo'], inplace=True)
     df['InvoiceNo'] = df['InvoiceNo'].astype('str')
@@ -74,12 +77,12 @@ def read_data():
     basket_sets.drop('POSTAGE', inplace=True, axis=1)
     frequent_itemsets = apriori(basket_sets, min_support=0.07, use_colnames=True)
     print(frequent_itemsets)
-    rules = association_rules(frequent_itemsets, metric="lift", min_threshold=1)
-    print(rules)
-    rules.head()
-    rules[(rules['lift'] >= 6) &
-          (rules['confidence'] >= 0.8)]
-    basket['ALARM CLOCK BAKELIKE GREEN'].sum()
+    # rules = association_rules(frequent_itemsets, metric="lift", min_threshold=1)
+    # print(rules)
+    # rules.head()
+    # rules[(rules['lift'] >= 6) &
+    #       (rules['confidence'] >= 0.8)]
+    # basket['ALARM CLOCK BAKELIKE GREEN'].sum()
 
 
     # basket2 = (df[df['Country'] =="Germany"]
@@ -103,5 +106,5 @@ def encode_units(x):
 
 
 if __name__ == "__main__":
-    insert_file()
-    # read_data()
+    # insert_file()
+    read_data()
