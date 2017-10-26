@@ -6,10 +6,9 @@
     
 # Course Outline
 
-##Learn the Basics
+## Learn the Basics
 
     Hello, World!
-    
     Variables and Types
     Lists
     Basic Operators
@@ -18,7 +17,7 @@
     Conditions
     Loops
     Functions
-##Classes and Objects
+## Classes and Objects
     About o-o programming
     Defining classes
     Constructors
@@ -27,7 +26,7 @@
     Class methods and data
     Dictionaries
     Modules and Packages
-##Database and queries
+## Database and queries
 
     Introduction
     DBM Operations
@@ -37,7 +36,7 @@
     Table Descriptions
     Writing Database Scripts
  
-##RESTful and HTTP APIs
+## RESTful and HTTP APIs
 
     Working with JSON from Python
     HTTP and REST building blocks
