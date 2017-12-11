@@ -1,8 +1,5 @@
 class Fruit:
-    __name=''
-    __price=0
-    __quantity=0
-
+    eatable=True
     def __init__(self,name,price,quantity):
         self.__name=name
         self.__price=price
@@ -11,8 +8,12 @@ class Fruit:
     def get_quantity(self):
         return self.__quantity
 
+    def set_price(self,price):
+        self.__price=price
+
     def get_name(self):
         return self.__name
+
     def get_price(self):
         return self.__price
 

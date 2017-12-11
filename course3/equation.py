@@ -24,14 +24,16 @@ if __name__ == "__main__":
     c=8
     y=1000
     x=0
+    step_accuracy = 0.01
     precision= y*0.001
+    xrange_step=5
     # y=a*x*x+b*x+c
     print("Y is",y)
-    step_accuracy = 0.01
+
     max_step_count = int(1 // step_accuracy)+1
     print(max_step_count)
     xrange=1
-    xrange_step=5
+
     x_found=False
     while(not x_found):
         xrange=xrange*xrange_step
