@@ -1,14 +1,17 @@
 import pymysql
 
-password = "blockchain"
 # Open database connection
-db = pymysql.connect("192.168.88.188","blockchain",password,"ccao" )
+domain = "192.168.88.188"
+user = "blockchain"
+password = user
+db_name = "CDDSERVER"
+db = pymysql.connect(domain, user, password, db_name)
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
 
 # Prepare SQL query to INSERT a record into the database.
-sql = "SELECT * FROM person"
+sql = "SELECT * FROM POLONIEX_HISTORICAL_CHART"
 try:
    # Execute the SQL command
    cursor.execute(sql)
@@ -16,14 +19,6 @@ try:
    results = cursor.fetchall()
    for row in results:
        print(row)
-      # fname = row[0]
-      # lname = row[1]
-      # age = row[2]
-      # sex = row[3]
-      # income = row[4]
-      # # Now print fetched result
-      # print ("fname = %s,lname = %s,age = %d,sex = %s,income = %d" % \
-      #        (fname, lname, age, sex, income ))
 except:
    print ("Error: unable to fetch data")
 
