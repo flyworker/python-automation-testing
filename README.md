@@ -1,19 +1,24 @@
-# automation-testing-mid
+# Automation Testing Level II
 
 ## Course Outline
 
-### Python introduction
+### Python Programming Basics
 * Basic Sytax
-* Oriented Desgin
-* Database access
+* Types of Variables and their declaration
+* If else condition usage and examples
+* Object Oriente Desgin
 
 ### Python with Selenium
 * Python Selenium Driver
 * Robot framework
+### Database with python
+* DataBase introduction
+* Python CRUD operation
 
 ### Python reporting
 * Sumbit data to database
 * Reporting tool
-* Restful service with Flask
+* Restful Service
+* Python web server: Flask
 
 ### Project Demo
