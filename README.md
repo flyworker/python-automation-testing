@@ -12,7 +12,7 @@
 * Basic Sytax
 * Types of Variables and their declaration
 * If else condition usage and examples
-* Object Oriente Desgin
+* Object Oriented Design
 
 ### Python with Selenium
 * Python Selenium Driver
