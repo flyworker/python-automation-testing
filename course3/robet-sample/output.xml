@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.2 (Python 3.6.2 on darwin)" generated="20180214 18:21:26.564">
+<suite id="s1" name="Tests" source="/Users/ccao/python-workshop/course3/robet-sample/tests.robot">
+<test id="s1-t1" name="Valid Login">
+<kw name="Open Browser To Login Page">
+<msg timestamp="20180214 18:21:26.597" level="FAIL">No keyword with name 'Open Browser To Login Page' found.</msg>
+<status status="FAIL" starttime="20180214 18:21:26.597" endtime="20180214 18:21:26.597"></status>
+</kw>
+<kw name="Close Browser" type="teardown">
+<msg timestamp="20180214 18:21:26.599" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20180214 18:21:26.599" endtime="20180214 18:21:26.599">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20180214 18:21:26.595" endtime="20180214 18:21:26.599" critical="yes">No keyword with name 'Open Browser To Login Page' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>A test suite with a single test for valid login.
+
+This test has a workflow that is created using keywords in
+the imported resource file.</doc>
+<status status="FAIL" starttime="20180214 18:21:26.565" endtime="20180214 18:21:26.599"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Tests">Tests</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20180214 18:21:26.594" level="ERROR">Error in file '/Users/ccao/python-workshop/course3/robet-sample/tests.robot': Resource file 'resource.robot' does not exist.</msg>
+</errors>
+</robot>
