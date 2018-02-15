@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.2 (Python 3.6.2 on darwin)" generated="20180214 21:20:21.544">
+<suite id="s1" name="Facebook" source="/Users/ccao/python-workshop/course3/robert-quick-start/facebook.robot">
+<test id="s1-t1" name="User cannot log in with bad password">
+<kw name="Attempt To Login With Credentials" library="FacebookLibrary">
+<arguments>
+<arg>betty</arg>
+<arg>wrong</arg>
+</arguments>
+<msg timestamp="20180214 21:20:48.391" level="INFO">Get title</msg>
+<status status="PASS" starttime="20180214 21:20:21.613" endtime="20180214 21:20:48.392"></status>
+</kw>
+<kw name="Status Should Be" library="FacebookLibrary">
+<arguments>
+<arg>Log into Facebook</arg>
+</arguments>
+<status status="PASS" starttime="20180214 21:20:48.392" endtime="20180214 21:20:48.535"></status>
+</kw>
+<status status="PASS" starttime="20180214 21:20:21.613" endtime="20180214 21:20:48.536" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20180214 21:20:21.545" endtime="20180214 21:20:48.537"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Facebook">Facebook</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
