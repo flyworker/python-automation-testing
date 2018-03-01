@@ -11,6 +11,7 @@ ${PASSWORD}               J4n3D0e
 ${NEW PASSWORD}           e0D3n4J
 ${DATABASE FILE}          ${TEMPDIR}${/}robotframework-quickstart-db.txt
 ${PWD INVALID LENGTH}     Password must be 7-12 characters long
+${NO APLE GET}     No apple get
 ${PWD INVALID CONTENT}    Password must be a combination of lowercase and uppercase letters and numbers
 
 *** Test Cases ***
@@ -32,7 +33,7 @@ User can change password
 
 Invalid password
     [Template]    Creating user with invalid password should fail
-    abCD5            ${PWD INVALID LENGTH}
+    getapple            ${NO APLE GET}
     abCD567890123    ${PWD INVALID LENGTH}
     123DEFG          ${PWD INVALID CONTENT}
     abcd56789        ${PWD INVALID CONTENT}
