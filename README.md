@@ -9,7 +9,7 @@
 ## Course Outline
 
 ### Python Programming Basics
-* Basic Sytax
+* Basic Syntax
 * Types of Variables and their declaration
 * If else condition usage and examples
 * Object Oriented Design
