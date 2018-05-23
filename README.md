@@ -14,7 +14,7 @@
 * If else condition usage and examples
 * Object Oriented Design
 
-### Python with Selenium
+### Selenium in Python
 * Python Selenium Driver
 * Robot framework
 
@@ -22,11 +22,13 @@
 * DataBase introduction
 * Python CRUD operation
 
-### Python reporting
-* Sumbit data to database
-* Reporting tool
+### Design a web based reporting server
+* Submit data to database
+* Testing Report tool
 * Restful Service
 * Python web server: Flask
+* Reproting
+
 
 ### Project Demo
 # Windows Installation 
