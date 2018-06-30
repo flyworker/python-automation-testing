@@ -56,12 +56,24 @@ class MortgageCalculator:
               (principal * self.__terms_month, principal * self.__terms_month - mortgage))
         return principal, principal * self.__terms_month - mortgage
 
-    def cash_back(self, amount):
-        return amount * ((1 + self.__interest_rate) ** self.__terms_year)
+    def cash_back(self, rate, amount):
+        return amount * ((1 + rate) ** self.__terms_year)
 
-    def cash_back_difference(self,new_rate,amount):
-        difference=0
-        return difference
+    def cash_back_difference(self, new_rate, amount):
+        # compare amount is greater or less than the new rate benefits
+        # new rate benefits= calculate difference with new rate and old rate
+        # new_rate_benefits=
+        old_principle, old_amortization_interest_cost = self.calculator()
+        plan_new = MortgageCalculator(interest_rate=new_rate, principal_pay=self.__principal_pay,
+                                      total_value=self.__total_value, terms_year=self.__terms_year)
+        new_principle, new_amortization_interest_cost = plan_new.calculator()
+        new_rate_benefits = old_amortization_interest_cost-new_amortization_interest_cost
+        amount = self.cash_back(new_rate, amount)
+        print("\nWith cash back %f, and new rate %f vs old rate %f, we gain: %f in %d years." % (
+            cash_back, new_rate, self.__interest_rate, amount + new_rate_benefits, self.__terms_year))
+
+        return amount + new_rate_benefits
+
 
 if __name__ == "__main__":
     print('''
@@ -75,15 +87,7 @@ if __name__ == "__main__":
     plan_a = MortgageCalculator(0.037, 200000, 400000, 25)
     plan_b = MortgageCalculator(0.035, 200000, 400000, 25)
 
-    print(plan_a)
-    print(plan_a.cash_back(1000))
-
-    print(plan_b)
-
-    # print(plan_a.calculator())
-
-    print(plan_b.cash_back(1000))
-    print(plan_b.get_interest_rate())
-
     plan_c = MortgageCalculator(interest_rate=0.035, principal_pay=300000, total_value=400000, terms_year=25)
-    print(plan_c.calculator())
+    cash_back = 1000
+    new_rate = 0.037
+    plan_c.cash_back_difference(new_rate=new_rate, amount=cash_back)
