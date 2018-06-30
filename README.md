@@ -22,11 +22,7 @@
 * DataBase introduction
 * Python CRUD operation
 
-### Python reporting
-* Sumbit data to database
-* Reporting tool
-* Restful Service
-* Python web server: Flask
+### API Testing(8h)
 
 ### Project Demo
 # Windows Installation 
