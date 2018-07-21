@@ -88,6 +88,6 @@ if __name__ == "__main__":
     plan_b = MortgageCalculator(0.035, 200000, 400000, 25)
 
     plan_c = MortgageCalculator(interest_rate=0.035, principal_pay=300000, total_value=400000, terms_year=25)
-    cash_back = 1000
+    cash_back = 1500
     new_rate = 0.037
     plan_c.cash_back_difference(new_rate=new_rate, amount=cash_back)
