@@ -1,5 +1,7 @@
 import unittest
 
+from course4.python_unit.souce_code import converting_chinese_to_english
+
 
 class TestStringMethods(unittest.TestCase):
 
@@ -11,7 +13,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertFalse('Foo'.isupper())
 
     def test_plus(self):
-        self.assertEqual(converting_chinese_to_english("天"),'sky1')
+        self.assertEqual(converting_chinese_to_english("天"),'sky')
 
     def test_split(self):
         s = 'hello world'
@@ -19,10 +21,6 @@ class TestStringMethods(unittest.TestCase):
         # check that s.split fails when the separator is not a string
         with self.assertRaises(TypeError):
             s.split(2)
-
-def converting_chinese_to_english(chinese):
-    if chinese=="天":
-        return 'sky'
 
 if __name__ == '__main__':
     unittest.main()
