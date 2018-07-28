@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.2 on darwin)" generated="20180728 16:43:28.268">
+<suite id="s1" name="Facebook" source="/Users/ccao/python-workshop/course4/facebook/facebook.robot">
+<test id="s1-t1" name="User cannot log in with bad password">
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<assign>
+<var>${RANDOM_STRING}</var>
+</assign>
+<msg timestamp="20180728 16:43:32.134" level="INFO">${RANDOM_STRING} = AOGdW</msg>
+<status status="PASS" starttime="20180728 16:43:32.133" endtime="20180728 16:43:32.134"></status>
+</kw>
+<kw name="Attempt To Login With Credentials" library="LoginLibrary">
+<arguments>
+<arg>${RANDOM_STRING}</arg>
+<arg>${PASSWORD}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 16:43:32.134" endtime="20180728 16:43:36.616"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>Log into Facebook</arg>
+</arguments>
+<msg timestamp="20180728 16:43:36.644" level="FAIL">Expected status should be 'Log into Facebook' but was 'Log Into Facebook'.</msg>
+<status status="FAIL" starttime="20180728 16:43:36.616" endtime="20180728 16:43:36.644"></status>
+</kw>
+<tags>
+<tag>facebook</tag>
+<tag>UAT</tag>
+</tags>
+<status status="FAIL" starttime="20180728 16:43:32.132" endtime="20180728 16:43:36.645" critical="yes">Expected status should be 'Log into Facebook' but was 'Log Into Facebook'.</status>
+</test>
+<test id="s1-t2" name="User can create an account and log in">
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<assign>
+<var>${RANDOM_USERNAME}</var>
+</assign>
+<msg timestamp="20180728 16:43:36.647" level="INFO">${RANDOM_USERNAME} = WXEi4</msg>
+<status status="PASS" starttime="20180728 16:43:36.646" endtime="20180728 16:43:36.647"></status>
+</kw>
+<kw name="Create valid user">
+<arguments>
+<arg>${RANDOM_USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+</arguments>
+<kw name="Create User" library="LoginLibrary">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20180728 16:43:40.376" level="INFO">create WXEi4 J4n3D0e</msg>
+<status status="PASS" starttime="20180728 16:43:36.647" endtime="20180728 16:43:40.376"></status>
+</kw>
+<status status="PASS" starttime="20180728 16:43:36.647" endtime="20180728 16:43:40.377"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Create Valid User ${RANDOM_USERNAME}</arg>
+</arguments>
+<msg timestamp="20180728 16:43:40.378" level="INFO">Create Valid User WXEi4</msg>
+<status status="PASS" starttime="20180728 16:43:40.377" endtime="20180728 16:43:40.378"></status>
+</kw>
+<kw name="Attempt To Login With Credentials" library="LoginLibrary">
+<arguments>
+<arg>${RANDOM_USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 16:43:40.378" endtime="20180728 16:43:41.194"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>Logged In</arg>
+</arguments>
+<msg timestamp="20180728 16:43:41.220" level="FAIL">Expected status should be 'Logged In' but was 'Log Into Facebook'.</msg>
+<status status="FAIL" starttime="20180728 16:43:41.194" endtime="20180728 16:43:41.220"></status>
+</kw>
+<tags>
+<tag>facebook</tag>
+<tag>UAT</tag>
+</tags>
+<status status="FAIL" starttime="20180728 16:43:36.646" endtime="20180728 16:43:41.220" critical="yes">Expected status should be 'Logged In' but was 'Log Into Facebook'.</status>
+</test>
+<status status="FAIL" starttime="20180728 16:43:28.270" endtime="20180728 16:43:41.221"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2">Critical Tests</stat>
+<stat pass="0" fail="2">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="2">facebook</stat>
+<stat pass="0" fail="2">UAT</stat>
+</tag>
+<suite>
+<stat pass="0" fail="2" id="s1" name="Facebook">Facebook</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

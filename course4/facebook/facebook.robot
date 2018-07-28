@@ -1,10 +1,10 @@
 *** Settings ***
 Library           OperatingSystem
 Library           robot_lib/LoginLibrary.py
-Library           Selenium2Screenshots
+Library           SeleniumLibrary
+Library           String
 
-Force Tags        quickstart
-Default Tags      example    smoke
+Force Tags        facebook
 
 *** Variables ***
 ${USERNAME}               janedoe
@@ -17,8 +17,41 @@ ${PWD INVALID CONTENT}    Password must be a combination of lowercase and upperc
 
 *** Test Cases ***
 User cannot log in with bad password
-    Attempt to Login with Credentials    betty    wrong
-    Status Should Be    Log Into Facebook
+    [Tags]    UAT
+    ${RANDOM_STRING}=    Generate Random String    5
+    Attempt to Login with Credentials   ${RANDOM_STRING}      ${PASSWORD}
+    Status Should Be    Log into Facebook
+
+
+User can create an account and log in
+    [Tags]    UAT
+    ${RANDOM_USERNAME}=    Generate Random String    5
+    Create Valid User    ${RANDOM_USERNAME}    ${PASSWORD}
+    Log    Create Valid User ${RANDOM_USERNAME}
+    Attempt to Login with Credentials    ${RANDOM_USERNAME}    ${PASSWORD}
+    Status Should Be    Logged In
+
+For-Loop-In-Range
+    [Tags]    Functional Test
+    : FOR    ${INDEX}    IN RANGE    1    3
+    \    Log    ${INDEX}
+    \    ${RANDOM_STRING}=    Generate Random String    ${INDEX}
+    \    Log    first ${RANDOM_STRING}
+For-Loop-Elements
+    [Tags]    Functional Test
+    @{ITEMS}    Create List    Star Trek    Star Wars    Perry Rhodan
+    :FOR    ${ELEMENT}    IN    @{ITEMS}
+    \    Log    ${ELEMENT}
+    \    ${ELEMENT}    Replace String    ${ELEMENT}    ${SPACE}    ${EMPTY}
+    \    Log    ${ELEMENT}
+
+For-Loop-Exiting
+    [Tags]    Functional Test
+    @{ITEMS}    Create List    Good Element 1    Break On Me    Good Element 2
+    :FOR    ${ELEMENT}    IN    @{ITEMS}
+    \    Log    ${ELEMENT}
+    \    Run Keyword If    '${ELEMENT}' == 'Break On Me'    Exit For Loop
+    \    Log    Do more actions here ...
 
 *** Keywords ***
 Clear login database
@@ -27,7 +60,7 @@ Clear login database
 Create valid user
     [Arguments]    ${username}    ${password}
     Create user    ${username}    ${password}
-    Status should be    SUCCESS
+#    Status should be    SUCCESS
 
 Creating user with invalid password should fail
     [Arguments]    ${password}    ${error}

@@ -6,7 +6,7 @@ For-Loop-In-Range
     : FOR    ${INDEX}    IN RANGE    1    3
     \    Log    ${INDEX}
     \    ${RANDOM_STRING}=    Generate Random String    ${INDEX}
-    \    Log    ${RANDOM_STRING}
+    \    Log    first ${RANDOM_STRING}
 
 For-Loop-Elements
     @{ITEMS}    Create List    Star Trek    Star Wars    Perry Rhodan
