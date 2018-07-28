@@ -1,7 +1,7 @@
 *** Settings ***
 Library           OperatingSystem
 Library           robot_lib/LoginLibrary.py
-Library  Selenium2Screenshots
+Library           Selenium2Screenshots
 
 Force Tags        quickstart
 Default Tags      example    smoke
