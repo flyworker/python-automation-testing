@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.2 on darwin)" generated="20180728 14:37:18.866">
+<suite id="s1" name="QuickStart" source="/Users/ccao/python-workshop/course4/robot-quick-start/QuickStart.robot">
+<test id="s1-t1" name="User can create an account and log in">
+<kw name="Create valid user">
+<arguments>
+<arg>fred</arg>
+<arg>P4ssw0rd</arg>
+</arguments>
+<kw name="Create User" library="LoginLibrary">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.135" endtime="20180728 14:37:19.206"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>SUCCESS</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.207" endtime="20180728 14:37:19.207"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:19.135" endtime="20180728 14:37:19.207"></status>
+</kw>
+<kw name="Attempt To Login With Credentials" library="LoginLibrary">
+<arguments>
+<arg>fred</arg>
+<arg>P4ssw0rd</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.208" endtime="20180728 14:37:19.279"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>Logged In</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.280" endtime="20180728 14:37:19.280"></status>
+</kw>
+<tags>
+<tag>example</tag>
+<tag>quickstart</tag>
+<tag>smoke</tag>
+</tags>
+<status status="PASS" starttime="20180728 14:37:19.134" endtime="20180728 14:37:19.281" critical="yes"></status>
+</test>
+<test id="s1-t2" name="User cannot log in with bad password">
+<kw name="Create valid user">
+<arguments>
+<arg>betty</arg>
+<arg>P4ssw0rd</arg>
+</arguments>
+<kw name="Create User" library="LoginLibrary">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.283" endtime="20180728 14:37:19.350"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>SUCCESS</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.351" endtime="20180728 14:37:19.351"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:19.283" endtime="20180728 14:37:19.351"></status>
+</kw>
+<kw name="Attempt To Login With Credentials" library="LoginLibrary">
+<arguments>
+<arg>betty</arg>
+<arg>wrong</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.351" endtime="20180728 14:37:19.426"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>Access Denied</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.427" endtime="20180728 14:37:19.428"></status>
+</kw>
+<tags>
+<tag>example</tag>
+<tag>quickstart</tag>
+<tag>smoke</tag>
+</tags>
+<status status="PASS" starttime="20180728 14:37:19.282" endtime="20180728 14:37:19.428" critical="yes"></status>
+</test>
+<test id="s1-t3" name="User can change password">
+<kw name="Given a user has a valid account">
+<kw name="Create valid user">
+<arguments>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+</arguments>
+<kw name="Create User" library="LoginLibrary">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.430" endtime="20180728 14:37:19.498"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>SUCCESS</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.499" endtime="20180728 14:37:19.499"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:19.430" endtime="20180728 14:37:19.500"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:19.430" endtime="20180728 14:37:19.500"></status>
+</kw>
+<kw name="When she changes her password">
+<kw name="Change Password" library="LoginLibrary">
+<arguments>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<arg>${NEW PASSWORD}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.501" endtime="20180728 14:37:19.569"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>SUCCESS</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.570" endtime="20180728 14:37:19.571"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:19.500" endtime="20180728 14:37:19.571"></status>
+</kw>
+<kw name="Then she can log in with the new password">
+<kw name="Login">
+<arguments>
+<arg>${USERNAME}</arg>
+<arg>${NEW PASSWORD}</arg>
+</arguments>
+<kw name="Attempt To Login With Credentials" library="LoginLibrary">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.572" endtime="20180728 14:37:19.639"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>Logged In</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.640" endtime="20180728 14:37:19.641"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:19.572" endtime="20180728 14:37:19.641"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:19.571" endtime="20180728 14:37:19.641"></status>
+</kw>
+<kw name="And she cannot use the old password anymore">
+<kw name="Attempt To Login With Credentials" library="LoginLibrary">
+<arguments>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.642" endtime="20180728 14:37:19.715"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>Access Denied</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.716" endtime="20180728 14:37:19.716"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:19.641" endtime="20180728 14:37:19.716"></status>
+</kw>
+<tags>
+<tag>example</tag>
+<tag>quickstart</tag>
+<tag>smoke</tag>
+</tags>
+<status status="PASS" starttime="20180728 14:37:19.429" endtime="20180728 14:37:19.717" critical="yes"></status>
+</test>
+<test id="s1-t4" name="Invalid password">
+<kw name="Creating user with invalid password should fail">
+<arguments>
+<arg>getapple</arg>
+<arg>${NO APLE GET}</arg>
+</arguments>
+<kw name="Create User" library="LoginLibrary">
+<arguments>
+<arg>example</arg>
+<arg>${password}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.719" endtime="20180728 14:37:19.788"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>Creating user failed: ${error}</arg>
+</arguments>
+<msg timestamp="20180728 14:37:19.790" level="FAIL">Expected status to be 'Creating user failed: No apple get' but was 'Creating user failed: Password must be a combination of lowercase and uppercase letters and numbers'.</msg>
+<status status="FAIL" starttime="20180728 14:37:19.789" endtime="20180728 14:37:19.790"></status>
+</kw>
+<status status="FAIL" starttime="20180728 14:37:19.718" endtime="20180728 14:37:19.790"></status>
+</kw>
+<kw name="Creating user with invalid password should fail">
+<arguments>
+<arg>abCD567890123</arg>
+<arg>${PWD INVALID LENGTH}</arg>
+</arguments>
+<kw name="Create User" library="LoginLibrary">
+<arguments>
+<arg>example</arg>
+<arg>${password}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.791" endtime="20180728 14:37:19.857"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>Creating user failed: ${error}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.858" endtime="20180728 14:37:19.859"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:19.790" endtime="20180728 14:37:19.859"></status>
+</kw>
+<kw name="Creating user with invalid password should fail">
+<arguments>
+<arg>123DEFG</arg>
+<arg>${PWD INVALID CONTENT}</arg>
+</arguments>
+<kw name="Create User" library="LoginLibrary">
+<arguments>
+<arg>example</arg>
+<arg>${password}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.859" endtime="20180728 14:37:19.926"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>Creating user failed: ${error}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.927" endtime="20180728 14:37:19.928"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:19.859" endtime="20180728 14:37:19.928"></status>
+</kw>
+<kw name="Creating user with invalid password should fail">
+<arguments>
+<arg>abcd56789</arg>
+<arg>${PWD INVALID CONTENT}</arg>
+</arguments>
+<kw name="Create User" library="LoginLibrary">
+<arguments>
+<arg>example</arg>
+<arg>${password}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.929" endtime="20180728 14:37:19.992"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>Creating user failed: ${error}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.992" endtime="20180728 14:37:19.993"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:19.928" endtime="20180728 14:37:19.993"></status>
+</kw>
+<kw name="Creating user with invalid password should fail">
+<arguments>
+<arg>AbCdEfGh</arg>
+<arg>${PWD INVALID CONTENT}</arg>
+</arguments>
+<kw name="Create User" library="LoginLibrary">
+<arguments>
+<arg>example</arg>
+<arg>${password}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:19.994" endtime="20180728 14:37:20.064"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>Creating user failed: ${error}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:20.064" endtime="20180728 14:37:20.065"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:19.993" endtime="20180728 14:37:20.065"></status>
+</kw>
+<kw name="Creating user with invalid password should fail">
+<arguments>
+<arg>abCD56+</arg>
+<arg>${PWD INVALID CONTENT}</arg>
+</arguments>
+<kw name="Create User" library="LoginLibrary">
+<arguments>
+<arg>example</arg>
+<arg>${password}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:20.066" endtime="20180728 14:37:20.138"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>Creating user failed: ${error}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:20.139" endtime="20180728 14:37:20.139"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:20.065" endtime="20180728 14:37:20.139"></status>
+</kw>
+<tags>
+<tag>example</tag>
+<tag>quickstart</tag>
+<tag>smoke</tag>
+</tags>
+<status status="FAIL" starttime="20180728 14:37:19.717" endtime="20180728 14:37:20.140" critical="yes">Expected status to be 'Creating user failed: No apple get' but was 'Creating user failed: Password must be a combination of lowercase and uppercase letters and numbers'.</status>
+</test>
+<test id="s1-t5" name="User status is stored in database">
+<kw name="Create valid user">
+<arguments>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+</arguments>
+<kw name="Create User" library="LoginLibrary">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:20.142" endtime="20180728 14:37:20.212"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>SUCCESS</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:20.213" endtime="20180728 14:37:20.213"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:20.142" endtime="20180728 14:37:20.214"></status>
+</kw>
+<kw name="Database Should Contain">
+<arguments>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<arg>Inactive</arg>
+</arguments>
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${DATABASE FILE}</arg>
+</arguments>
+<assign>
+<var>${database}</var>
+</assign>
+<msg timestamp="20180728 14:37:20.215" level="INFO" html="yes">Getting file '&lt;a href="file:///var/folders/pc/fxtczc_j3_37b08vcjxv59p00000gn/T/robotframework-quickstart-db.txt"&gt;/var/folders/pc/fxtczc_j3_37b08vcjxv59p00000gn/T/robotframework-quickstart-db.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180728 14:37:20.215" level="INFO">${database} = fred	P4ssw0rd	Active
+betty	P4ssw0rd	Inactive
+janedoe	J4n3D0e	Inactive
+</msg>
+<status status="PASS" starttime="20180728 14:37:20.214" endtime="20180728 14:37:20.215"></status>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${database}</arg>
+<arg>${username}\t${password}\t${status}\n</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:20.215" endtime="20180728 14:37:20.215"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:20.214" endtime="20180728 14:37:20.216"></status>
+</kw>
+<kw name="Login">
+<arguments>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+</arguments>
+<kw name="Attempt To Login With Credentials" library="LoginLibrary">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:20.216" endtime="20180728 14:37:20.284"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>Logged In</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:20.285" endtime="20180728 14:37:20.285"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:20.216" endtime="20180728 14:37:20.286"></status>
+</kw>
+<kw name="Database Should Contain">
+<arguments>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<arg>Active</arg>
+</arguments>
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${DATABASE FILE}</arg>
+</arguments>
+<assign>
+<var>${database}</var>
+</assign>
+<msg timestamp="20180728 14:37:20.287" level="INFO" html="yes">Getting file '&lt;a href="file:///var/folders/pc/fxtczc_j3_37b08vcjxv59p00000gn/T/robotframework-quickstart-db.txt"&gt;/var/folders/pc/fxtczc_j3_37b08vcjxv59p00000gn/T/robotframework-quickstart-db.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20180728 14:37:20.288" level="INFO">${database} = fred	P4ssw0rd	Active
+betty	P4ssw0rd	Inactive
+janedoe	J4n3D0e	Active
+</msg>
+<status status="PASS" starttime="20180728 14:37:20.287" endtime="20180728 14:37:20.288"></status>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${database}</arg>
+<arg>${username}\t${password}\t${status}\n</arg>
+</arguments>
+<status status="PASS" starttime="20180728 14:37:20.288" endtime="20180728 14:37:20.288"></status>
+</kw>
+<status status="PASS" starttime="20180728 14:37:20.286" endtime="20180728 14:37:20.288"></status>
+</kw>
+<tags>
+<tag>database</tag>
+<tag>quickstart</tag>
+<tag>variables</tag>
+</tags>
+<status status="PASS" starttime="20180728 14:37:20.141" endtime="20180728 14:37:20.289" critical="yes"></status>
+</test>
+<status status="FAIL" starttime="20180728 14:37:18.867" endtime="20180728 14:37:20.290"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="1">Critical Tests</stat>
+<stat pass="4" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">database</stat>
+<stat pass="3" fail="1">example</stat>
+<stat pass="4" fail="1">quickstart</stat>
+<stat pass="3" fail="1">smoke</stat>
+<stat pass="1" fail="0">variables</stat>
+</tag>
+<suite>
+<stat pass="4" fail="1" id="s1" name="QuickStart">QuickStart</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
