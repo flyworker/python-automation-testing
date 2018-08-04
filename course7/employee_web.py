@@ -1,3 +1,6 @@
+import random
+
+import names
 from flask import Flask, jsonify, request, render_template
 import pymysql
 import csv
@@ -6,28 +9,33 @@ from time import gmtime, strftime
 
 domain = ""
 user = ""
-password = user
+password = ""
 db_name = ""
 
 app = Flask(__name__)
 
 
-@app.route('/employee')
-def read_data():
+def setup_connection(domain, password, user, db_name):
     db = pymysql.connect(domain, user, password, db_name)
+    return db
+
+
+def add_data(db, table_name, FirstName, LastName, AGE, Sex, Salary):
     # prepare a cursor object using cursor() method
     cursor = db.cursor()
-
     # Prepare SQL query to INSERT a record into the database.
-    sql = "SELECT * FROM EMPLOYEE"
+    sql = "INSERT INTO %s (`FirstName`, `LastName`, `AGE`, `Sex`,`Salary`) VALUES ('%s','%s', '%s', '%s','%s')" \
+          % (table_name, FirstName, LastName, AGE, Sex, Salary)
     # try:
     # Execute the SQL command
     cursor.execute(sql)
-
-    # Fetch all the rows in a list of lists.
-    results = cursor.fetchall()
     cursor.close()
-    db.close()
+    db.commit()
+
+
+@app.route('/employee')
+def read_data_to_html():
+    results = read_employee()
 
     # reading file content into list
     headers = ['ID', 'FirstName', 'LastName', 'AGE', 'Sex', 'Salary']
@@ -78,8 +86,29 @@ def read_data():
     return table + footer
 
 
-def valid_login(param, param1):
-    return True
+def read_employee():
+    db = pymysql.connect(domain, user, password, db_name)
+    # prepare a cursor object using cursor() method
+    cursor = db.cursor()
+    # Prepare SQL query to INSERT a record into the database.
+    sql = "SELECT * FROM EMPLOYEE"
+    # try:
+    # Execute the SQL command
+    cursor.execute(sql)
+    # Fetch all the rows in a list of lists.
+    results = cursor.fetchall()
+    cursor.close()
+    db.close()
+    return results
+
+
+def valid_login(username, password):
+    results = read_employee()
+    find_user = False
+    for e in results:
+        if e[1] == username:
+            find_user = True
+    return find_user
 
 
 def log_the_user_in(user):
@@ -88,27 +117,40 @@ def log_the_user_in(user):
 
 @app.route('/login', methods=['POST', 'GET'])
 def login():
-    username='Anonymous'
-    error = None
+    username = None
+    status = None
     if request.method == 'POST':
         username = request.form['username']
         if valid_login(username,
                        request.form['password']):
             log_the_user_in(username)
+            status = 'Success'
         else:
-            error = 'Invalid username/password'
-    # the code below is executed if the request method
-    # was GET or the credentials were invalid
-    html='''
-            <html>
-                <head>
-                    <title>Home Page - ECVLearning</title>
-                </head>
-                <body>
-                    <h1>Hello, ''' + username + '''!</h1>
-                </body>
-            </html>'''
-    return html
+            status = 'User does not exist'
+
+    return jsonify(
+        username=username,
+        status=status
+    )
+
+
+@app.route('/add_user', methods=['POST', 'GET'])
+def add_user():
+    db = setup_connection(domain, user, password, db_name)
+    status = None
+    first_name = request.form['first_name']
+    last_name = request.form['last_name']
+    age = request.form['age']
+    sex = request.form['sex']
+    salary = request.form['salary']
+
+    add_data(db, 'EMPLOYEE', first_name, last_name, age, sex, salary)
+    status = 'Success'
+    return jsonify(
+        first_name=first_name,
+        last_name=last_name,
+        status=status
+    )
 
 
 if __name__ == '__main__':
