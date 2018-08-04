@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request, render_template
 import pymysql
 import csv
 import os
@@ -12,14 +12,14 @@ db_name = ""
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/employee')
 def read_data():
     db = pymysql.connect(domain, user, password, db_name)
     # prepare a cursor object using cursor() method
     cursor = db.cursor()
 
     # Prepare SQL query to INSERT a record into the database.
-    sql = "SELECT * FROM ccao.person"
+    sql = "SELECT * FROM EMPLOYEE"
     # try:
     # Execute the SQL command
     cursor.execute(sql)
@@ -30,7 +30,7 @@ def read_data():
     db.close()
 
     # reading file content into list
-    headers = ['ID', 'Name']
+    headers = ['ID', 'FirstName', 'LastName', 'AGE', 'Sex', 'Salary']
     delimiter = ","
     print(results)
 
@@ -76,10 +76,40 @@ def read_data():
         </html>
             '''
     return table + footer
-    # r = [dict((cur.description[i][0], value)
-    #           for i, value in enumerate(row)) for row in cur.fetchall()]
-    # return jsonify({'myCollection' : r})
+
+
+def valid_login(param, param1):
+    return True
+
+
+def log_the_user_in(user):
+    print('User %s Success fully login' % user)
+
+
+@app.route('/login', methods=['POST', 'GET'])
+def login():
+    username='Anonymous'
+    error = None
+    if request.method == 'POST':
+        username = request.form['username']
+        if valid_login(username,
+                       request.form['password']):
+            log_the_user_in(username)
+        else:
+            error = 'Invalid username/password'
+    # the code below is executed if the request method
+    # was GET or the credentials were invalid
+    html='''
+            <html>
+                <head>
+                    <title>Home Page - ECVLearning</title>
+                </head>
+                <body>
+                    <h1>Hello, ''' + username + '''!</h1>
+                </body>
+            </html>'''
+    return html
+
 
 if __name__ == '__main__':
-
     app.run()
