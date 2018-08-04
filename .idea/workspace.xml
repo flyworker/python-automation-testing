@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921b8f33-5a11-4765-a29d-0d451874128f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/course4/google_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course4/robot-quick-start/QuickStart.robot" beforeDir="false" afterPath="$PROJECT_DIR$/course4/robot-quick-start/QuickStart.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/document/Python_selenium.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/document/Python_selenium.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/~$Python_selenium.pptx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +15,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python_workshop$Unittests_for_google_test_TestStringMethods.coverage" NAME="Unittests for google_test.TestStringMethods Coverage Results" MODIFIED="1533408756528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/course4" />
     <SUITE FILE_PATH="coverage/python_workshop$docutils_task_in_README_rst.coverage" NAME="docutils task in README.rst Coverage Results" MODIFIED="1532798263151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/course3/robot-quick-start" />
     <SUITE FILE_PATH="coverage/python_workshop$Unittests_for_python_new_TestStringMethods_test_split.coverage" NAME="Unittests for python_new.TestStringMethods.test_split Coverage Results" MODIFIED="1532203234596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/course4/python_unit" />
     <SUITE FILE_PATH="coverage/python_workshop$Unittests_for_python_unit_TestStringMethods_test_plus.coverage" NAME="Unittests for python_unit.TestStringMethods.test_plus Coverage Results" MODIFIED="1532200794944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/course4/python_unit" />
     <SUITE FILE_PATH="coverage/python_workshop$Unittests_for_python_unit_TestStringMethods_test_isupper.coverage" NAME="Unittests for python_unit.TestStringMethods.test_isupper Coverage Results" MODIFIED="1532198639363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/course4/python_unit" />
+    <SUITE FILE_PATH="coverage/python_workshop$api_test.coverage" NAME="api_test Coverage Results" MODIFIED="1533407809783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/course4/robot-quick-start" />
+    <SUITE FILE_PATH="coverage/python_workshop$Unittests_for_google_test_TestStringMethods_test_distance.coverage" NAME="Unittests for google_test.TestStringMethods.test_distance Coverage Results" MODIFIED="1533408969268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/course4" />
     <SUITE FILE_PATH="coverage/python_workshop$Unittests_for_python_unit_TestStringMethods_test_upper.coverage" NAME="Unittests for python_unit.TestStringMethods.test_upper Coverage Results" MODIFIED="1532200523296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/course4/python_unit" />
     <SUITE FILE_PATH="coverage/python_workshop$Unittests_for_python_new_TestStringMethods_test_plus.coverage" NAME="Unittests for python_new.TestStringMethods.test_plus Coverage Results" MODIFIED="1532201613643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/course4/python_unit" />
     <SUITE FILE_PATH="coverage/python_workshop$facebook_login_page_test.coverage" NAME="facebook_login_page_test Coverage Results" MODIFIED="1532208611065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/course4/python_unit" />
@@ -27,59 +29,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="facebook.robot" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/facebook.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginLibrary.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/robot_lib/LoginLibrary.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickStart.robot" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/QuickStart.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="read_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course6/read_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="64" column="56" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="read_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course5/read_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="15">
               <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="api_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course4/api_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="google_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course4/google_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="python_new.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course3/python_unit/python_new.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample_unit.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course3/python_unit/sample_unit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#28#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="souce_code.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course3/python_unit/souce_code.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course5/README.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="163">
+                <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              </first_editor>
               <second_editor>
                 <js_state />
               </second_editor>
@@ -87,11 +106,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample.robot" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/sample.robot">
+      <file leaf-file-name="employee_web.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course7/employee_web.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="360">
+              <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employee-2018-03-29 00:39:44.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course6/employee-2018-03-29 00:39:44.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="read_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course6/read_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -115,6 +148,7 @@
       <find>5</find>
       <find>Invalid password</find>
       <find>Creating user with invalid password should fail</find>
+      <find>Create Valid User</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,13 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/document/Couse Outline.md" />
-        <option value="$PROJECT_DIR$/course4/Parent.py" />
-        <option value="$PROJECT_DIR$/course4/association_analysis/Child.py" />
-        <option value="$PROJECT_DIR$/course4/private.py" />
-        <option value="$PROJECT_DIR$/course4/association_analysis/read_data.py" />
-        <option value="$PROJECT_DIR$/course4/association_analysis/create_table.py" />
-        <option value="$PROJECT_DIR$/course4/association_analysis/insert_data.py" />
         <option value="$PROJECT_DIR$/course4/association_analysis/update_data.py" />
         <option value="$PROJECT_DIR$/course1/a.py" />
         <option value="$PROJECT_DIR$/course2/a.py" />
@@ -179,6 +206,13 @@
         <option value="$PROJECT_DIR$/course3/robot-quick-start/sample.robot" />
         <option value="$PROJECT_DIR$/course3/robot-quick-start/facebook.robot" />
         <option value="$PROJECT_DIR$/course4/robot-quick-start/QuickStart.robot" />
+        <option value="$PROJECT_DIR$/course4/facebook/QuickStart.robot" />
+        <option value="$PROJECT_DIR$/course4/facebook/forloop.robot" />
+        <option value="$PROJECT_DIR$/course4/facebook/robot_lib/LoginLibrary.py" />
+        <option value="$PROJECT_DIR$/course4/facebook/facebook.robot" />
+        <option value="$PROJECT_DIR$/course4/robot-quick-start/api_test.py" />
+        <option value="$PROJECT_DIR$/course4/api_test.py" />
+        <option value="$PROJECT_DIR$/course4/google_test.py" />
       </list>
     </option>
   </component>
@@ -194,7 +228,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1024" />
-    <option name="height" value="699" />
+    <option name="height" value="694" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -226,7 +260,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,6 +285,12 @@
             <path>
               <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="python_unit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
               <item name="course4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -259,13 +298,6 @@
               <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
               <item name="course4" type="462c0819:PsiDirectoryNode" />
               <item name="robot-quick-start" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="course4" type="462c0819:PsiDirectoryNode" />
-              <item name="robot-quick-start" type="462c0819:PsiDirectoryNode" />
-              <item name="robot_lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
@@ -291,35 +323,37 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="api&#9;FILE&#9;file:///Users/ccao/python-workshop/course4/robot-quick-start/api_test.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/course3/robot-quick-start/lib/LoginLibrary.py&#10;/Users/ccao/python-workshop/course3/robot-quick-start/lib/FacebookLibrary.py&#10;/Users/ccao/python-workshop/course3/robot-quick-start/lib/SampleLibrary.py" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.16015625" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/course3/robot-quick-start/lib/LoginLibrary.py&#10;/Users/ccao/python-workshop/course3/robot-quick-start/lib/FacebookLibrary.py&#10;/Users/ccao/python-workshop/course3/robot-quick-start/lib/SampleLibrary.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/course4/python_unit" />
-      <recent name="$PROJECT_DIR$/course6" />
-      <recent name="$PROJECT_DIR$/course3/robert-quick-start/lib" />
-      <recent name="$PROJECT_DIR$/course3/robert-quick-start" />
-      <recent name="$PROJECT_DIR$/course3" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/course4" />
       <recent name="$PROJECT_DIR$/course3" />
       <recent name="$PROJECT_DIR$/course2" />
       <recent name="$PROJECT_DIR$/course3/robot-quick-start/lib" />
       <recent name="$PROJECT_DIR$/course3/robot-quick-start" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/course4" />
+      <recent name="$PROJECT_DIR$/course4/facebook" />
+      <recent name="$PROJECT_DIR$/course4/robot-quick-start/robot_lib" />
+      <recent name="$PROJECT_DIR$/course4/python_unit" />
+      <recent name="$PROJECT_DIR$/course6" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -334,8 +368,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python docs.docutils task in README.rst">
-    <configuration name="facebook_login_page_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for google_test.TestStringMethods.test_distance">
+    <configuration name="report.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/python-workshop/course4/facebook/report.html" />
+    <configuration name="api_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,12 +378,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4/python_unit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4/robot-quick-start" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course4/python_unit/facebook_login_page_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course4/api_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -771,32 +806,32 @@
       <arguments />
       <envs />
     </configuration>
-    <configuration name="Unittests for python_new.TestStringMethods.test_plus" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for google_test.TestStringMethods" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4/python_unit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;python_new.TestStringMethods.test_plus&quot;" />
+      <option name="_new_target" value="&quot;google_test.TestStringMethods&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for python_new.TestStringMethods.test_split" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for google_test.TestStringMethods.test_distance" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4/python_unit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;python_new.TestStringMethods.test_split&quot;" />
+      <option name="_new_target" value="&quot;google_test.TestStringMethods.test_distance&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -814,19 +849,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for python_new.TestStringMethods.test_plus" />
-      <item itemvalue="Python tests.Unittests for python_new.TestStringMethods.test_split" />
-      <item itemvalue="Python.facebook_login_page_test" />
+      <item itemvalue="JavaScript Debug.report.html" />
       <item itemvalue="Python.sample_test2" />
       <item itemvalue="Python docs.docutils task in README.rst" />
+      <item itemvalue="Python.api_test" />
+      <item itemvalue="Python tests.Unittests for google_test.TestStringMethods.test_distance" />
+      <item itemvalue="Python tests.Unittests for google_test.TestStringMethods" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for google_test.TestStringMethods.test_distance" />
+        <item itemvalue="Python tests.Unittests for google_test.TestStringMethods" />
+        <item itemvalue="Python.api_test" />
         <item itemvalue="Python docs.docutils task in README.rst" />
         <item itemvalue="Python.sample_test2" />
-        <item itemvalue="Python.facebook_login_page_test" />
-        <item itemvalue="Python tests.Unittests for python_new.TestStringMethods.test_split" />
-        <item itemvalue="Python tests.Unittests for python_new.TestStringMethods.test_plus" />
       </list>
     </recent_temporary>
   </component>
@@ -857,28 +893,17 @@
       <option name="project" value="LOCAL" />
       <updated>1530390902393</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add morgage calculator.">
+      <created>1532815295531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532815295531</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_python_unit_TestStringMethods_test_isupper - 2018.07.21 at 14h 44m 00s.xml">
-      <configuration name="Unittests for python_unit.TestStringMethods.test_isupper" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_python_unit_TestStringMethods_test_upper - 2018.07.21 at 15h 15m 24s.xml">
-      <configuration name="Unittests for python_unit.TestStringMethods.test_upper" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_python_unit_TestStringMethods_test_plus - 2018.07.21 at 15h 17m 20s.xml">
-      <configuration name="Unittests for python_unit.TestStringMethods.test_plus" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_python_unit_TestStringMethods_test_plus - 2018.07.21 at 15h 17m 27s.xml">
-      <configuration name="Unittests for python_unit.TestStringMethods.test_plus" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_python_unit_TestStringMethods_test_plus - 2018.07.21 at 15h 19m 49s.xml">
-      <configuration name="Unittests for python_unit.TestStringMethods.test_plus" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_python_unit_TestStringMethods_test_plus - 2018.07.21 at 15h 19m 55s.xml">
-      <configuration name="Unittests for python_unit.TestStringMethods.test_plus" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_python_new_TestStringMethods_test_plus - 2018.07.21 at 15h 33m 22s.xml">
       <configuration name="Unittests for python_new.TestStringMethods.test_plus" configurationId="tests" />
     </history-entry>
@@ -888,28 +913,48 @@
     <history-entry file="Unittests_for_python_new_TestStringMethods_test_split - 2018.07.21 at 16h 00m 35s.xml">
       <configuration name="Unittests for python_new.TestStringMethods.test_split" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_google_test_TestStringMethods_test_distance - 2018.08.04 at 14h 51m 44s.xml">
+      <configuration name="Unittests for google_test.TestStringMethods.test_distance" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_google_test_TestStringMethods_test_distance - 2018.08.04 at 14h 52m 15s.xml">
+      <configuration name="Unittests for google_test.TestStringMethods.test_distance" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_google_test_TestStringMethods - 2018.08.04 at 14h 52m 37s.xml">
+      <configuration name="Unittests for google_test.TestStringMethods" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_google_test_TestStringMethods_test_distance - 2018.08.04 at 14h 54m 42s.xml">
+      <configuration name="Unittests for google_test.TestStringMethods.test_distance" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_google_test_TestStringMethods_test_distance - 2018.08.04 at 14h 55m 25s.xml">
+      <configuration name="Unittests for google_test.TestStringMethods.test_distance" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_google_test_TestStringMethods_test_distance - 2018.08.04 at 14h 55m 50s.xml">
+      <configuration name="Unittests for google_test.TestStringMethods.test_distance" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_google_test_TestStringMethods_test_distance - 2018.08.04 at 14h 56m 09s.xml">
+      <configuration name="Unittests for google_test.TestStringMethods.test_distance" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="8677000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1024" height="699" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1024" height="694" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.40733197" side_tool="true" weight="0.28428093" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.5478615" weight="0.2742475" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.5478615" weight="0.2740864" />
       <window_info anchor="bottom" id="Python Console" order="19" weight="0.32943144" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.5968992" weight="0.3100137" />
-      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.34385383" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33910388" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.5968992" weight="0.3082077" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" visible="true" weight="0.40536013" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2790224" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24925224" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.30033004" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.29900333" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info id="Designer" order="5" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -945,7 +990,7 @@
       <window_info anchor="bottom" id="Python Console" order="19" weight="0.32943144" />
       <window_info anchor="right" id="Properties" order="6" />
       <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.5968992" weight="0.3100137" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.5968992" visible="true" weight="0.3082077" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="DB Browser" order="3" />
@@ -953,7 +998,7 @@
       <window_info anchor="bottom" id="Log Manager" order="11" />
       <window_info anchor="bottom" id="SFDX" order="8" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" visible="true" weight="0.34385383" />
+      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.40536013" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
@@ -962,12 +1007,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Data View" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.5478615" weight="0.2742475" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.5478615" weight="0.2740864" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Salesforce" order="14" sideWeight="0.4978701" weight="0.32915717" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32663316" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33910388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38289204" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="bottom" id="Message" order="2" />
@@ -978,7 +1023,7 @@
       <window_info anchor="bottom" id="Debug Logs" order="12" weight="0.32943144" />
       <window_info anchor="bottom" id="Execute Anonymous" order="13" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.30033004" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.29900333" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
     </layout-to-restore>
   </component>
@@ -1044,48 +1089,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/course6/Output.html" />
-    <entry file="file://$PROJECT_DIR$/course6/temp_employee2018-03-28.csv" />
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.2/python_stubs/-2010535109/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="475" column="21" selection-start-line="475" selection-start-column="16" selection-end-line="475" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course2/function_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course1/strings.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course1/list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course2/b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course1/testa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course3/Banana.py" />
-    <entry file="file://$PROJECT_DIR$/course3/Book.py" />
     <entry file="file://$PROJECT_DIR$/course3/bird_main.py" />
     <entry file="file://$PROJECT_DIR$/course3/Bird.py" />
     <entry file="file://$PROJECT_DIR$/course3/EBook.py" />
@@ -1096,13 +1099,6 @@
     <entry file="file://$PROJECT_DIR$/course4/association_analysis/delete_data.py" />
     <entry file="file://$PROJECT_DIR$/course4/association_analysis/create_table.py" />
     <entry file="file://$PROJECT_DIR$/course4/association_analysis/Child.py" />
-    <entry file="file://$PROJECT_DIR$/course7/employee_web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course4/association_analysis/insert_data.py" />
     <entry file="file://$PROJECT_DIR$/course4/association_analysis/read_file.py" />
     <entry file="file://$PROJECT_DIR$/course4/association_analysis/Nebula_LSTM.py" />
@@ -1114,59 +1110,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course4/private.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course3/python_unit/sample_test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course3/python_unit/sample_unit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course3/python_unit/souce_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course3/python_unit/python_new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course3/screenshot/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/course3/python_unit/facebook_login_page_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/QuickStart.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/report.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1176,29 +1120,7 @@
     <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/README.rst">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/robot_lib/FacebookLibrary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/robot_lib/SampleLibrary.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/facebook.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course3/WebBook.py" />
-    <entry file="file://$PROJECT_DIR$/course5/read_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course5/README.md">
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
@@ -1210,35 +1132,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/course6/temp_employee2018-03-29 00:39:44.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/facebook.robot" />
+    <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/robot_lib/FacebookLibrary.py" />
+    <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/robot_lib/SampleLibrary.py" />
+    <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/robot_lib/LoginLibrary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4/facebook/robot_lib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4/facebook/sut/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course3/python_unit/facebook_login_page_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4/facebook/screenshot.png" />
+    <entry file="file://$PROJECT_DIR$/course4/facebook/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/forloop.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="120">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4/facebook/log.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/QuickStart.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/QuickStart.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4/facebook/robot_lib/LoginLibrary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4/facebook/forloop.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/robot_lib/LoginLibrary.py">
+    <entry file="file://$PROJECT_DIR$/course4/facebook/facebook.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course6/temp_employee2018-03-29 00:39:44.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course6/employee-2018-03-29 00:39:44.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course6/read_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="64" column="56" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="56" />
+        <state relative-caret-position="855">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
@@ -1249,10 +1223,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/QuickStart.robot">
+    <entry file="file://$PROJECT_DIR$/course4/private.py" />
+    <entry file="file://$PROJECT_DIR$/course3/python_unit/sample_test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course3/python_unit/souce_code.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course3/python_unit/sample_unit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#28#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course3/python_unit/python_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course5/read_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4/api_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course4/google_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="163">
+            <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course7/employee_web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course6/employee-2018-03-29 00:39:44.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course6/read_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
