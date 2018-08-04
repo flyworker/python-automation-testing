@@ -14,6 +14,7 @@ def read_data(domain=None, user=None, password=None, db_name=None):
 
     # Fetch all the rows in a list of lists.
     results = cursor.fetchall()
+    return results
 
 if __name__ == '__main__':
     pass
