@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921b8f33-5a11-4765-a29d-0d451874128f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/document/Introduction.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/Test-case-template-xls.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/sample-test-plan-template.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/API Testing.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/Continuous Integration.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/PerfTest.ppt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/~$course4.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,71 +34,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="api_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course4/api_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+            <state relative-caret-position="1455">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="employee_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course7/employee_test.py">
+      <file leaf-file-name="strings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course1/strings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="105">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="python_new.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course3/python_unit/python_new.py">
+      <file leaf-file-name="mortgage_calculator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course2/mortgage_calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="172">
+              <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="287">
+                <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="employee_web.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course7/employee_web.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="14" />
-            </state>
-          </provider>
+      <file leaf-file-name="function_example.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course2/function_example.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="templating.py" pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/templating.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
-            </state>
-          </provider>
+      <file leaf-file-name="b.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course2/b.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="testa.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course1/testa.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="read_employee.py" pinned="false" current-in-tab="false">
@@ -186,7 +172,6 @@
         <option value="$PROJECT_DIR$/course1/testa.py" />
         <option value="$PROJECT_DIR$/course2/b.py" />
         <option value="$PROJECT_DIR$/course1/hello_world.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/course2/mortgage_calculator.py" />
         <option value="$PROJECT_DIR$/course3/Bird.py" />
         <option value="$PROJECT_DIR$/course4/python_unit/python_unit.py" />
@@ -208,6 +193,7 @@
         <option value="$PROJECT_DIR$/course7/employee_test.py" />
         <option value="$PROJECT_DIR$/course7/employee_web.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -218,10 +204,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-306" />
-    <option name="y" value="97" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="705" />
+    <option name="height" value="826" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -245,6 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -308,7 +294,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -334,19 +319,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/course7" />
-      <recent name="$PROJECT_DIR$/course4" />
-      <recent name="$PROJECT_DIR$/course4/facebook" />
-      <recent name="$PROJECT_DIR$/course4/robot-quick-start/robot_lib" />
-      <recent name="$PROJECT_DIR$/course4/python_unit" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/document" />
       <recent name="$PROJECT_DIR$/course4" />
       <recent name="$PROJECT_DIR$/course3" />
       <recent name="$PROJECT_DIR$/course2" />
       <recent name="$PROJECT_DIR$/course3/robot-quick-start/lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/document" />
+      <recent name="$PROJECT_DIR$/course7" />
+      <recent name="$PROJECT_DIR$/course4" />
+      <recent name="$PROJECT_DIR$/course4/facebook" />
+      <recent name="$PROJECT_DIR$/course4/robot-quick-start/robot_lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -361,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.api_test">
+  <component name="RunManager" selected="Python.mortgage_calculator">
     <configuration name="report.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/python-workshop/course4/facebook/report.html">
       <method v="2" />
     </configuration>
@@ -398,6 +383,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course7/employee_web.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="mortgage_calculator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-workshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course2/mortgage_calculator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -586,20 +589,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for employee_test.TestStringMethods.test_add_user" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="python-workshop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;employee_test.TestStringMethods.test_add_user&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
     <configuration name="Unittests in employee_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -629,14 +618,15 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for employee_test.TestStringMethods.test_add_user" />
       <item itemvalue="Python tests.Unittests in employee_test.py" />
       <item itemvalue="Python.employee_web" />
       <item itemvalue="Python.read_employee" />
       <item itemvalue="Python.api_test" />
+      <item itemvalue="Python.mortgage_calculator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mortgage_calculator" />
         <item itemvalue="Python.api_test" />
       </list>
     </recent_temporary>
@@ -718,94 +708,94 @@
     <option name="totallyTimeSpent" value="9838000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1024" height="705" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="826" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35194418" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18111347" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.40733197" side_tool="true" weight="0.28428093" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.5968992" weight="0.386921" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="15" sideWeight="0.5478615" visible="true" weight="0.27302632" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.5968992" weight="0.38651314" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.5478615" weight="0.27302632" />
       <window_info anchor="bottom" id="Python Console" order="19" weight="0.32943144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24925224" />
       <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.3305921" />
       <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.20268007" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info id="Designer" order="5" />
-      <window_info anchor="bottom" id="Messages" order="16" />
+      <window_info anchor="right" id="Palette" order="5" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="DB Browser" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info anchor="bottom" id="Log Manager" order="11" />
-      <window_info anchor="bottom" id="SFDX" order="8" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info id="UI Designer" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="SFDX" order="8" />
+      <window_info anchor="bottom" id="Log Manager" order="11" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Data View" order="12" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Debug Logs" order="12" weight="0.32943144" />
+      <window_info anchor="bottom" id="Execute Anonymous" order="13" />
+      <window_info anchor="bottom" id="Messages" order="16" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Salesforce" order="14" sideWeight="0.4978701" weight="0.32915717" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32663316" />
       <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="bottom" id="Execute Anonymous" order="13" />
+      <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="right" id="Properties" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="bottom" id="Debug Logs" order="12" weight="0.32943144" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" visible="true" weight="0.40536013" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info id="Designer" order="5" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="Python Console" order="19" weight="0.32943144" />
-      <window_info anchor="right" id="Properties" order="7" />
-      <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Run" order="4" sideWeight="0.5968992" weight="0.30653265" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32663316" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info id="DB Browser" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Log Manager" order="11" />
       <window_info anchor="bottom" id="SFDX" order="8" />
-      <window_info anchor="bottom" id="Execute Anonymous" order="13" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" visible="true" weight="0.40536013" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.40733197" side_tool="true" weight="0.28428093" />
+      <window_info anchor="bottom" id="Messages" order="16" />
+      <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="12" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info anchor="bottom" id="Debug Logs" order="12" weight="0.32943144" />
-      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.5478615" weight="0.2740864" />
+      <window_info anchor="right" id="Data View" order="12" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Salesforce" order="14" sideWeight="0.4978701" weight="0.32915717" />
       <window_info anchor="right" id="Capture Analysis" order="10" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24925224" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25967413" />
       <window_info anchor="right" id="SciView" order="1" />
-      <window_info anchor="bottom" id="Messages" order="16" />
+      <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24925224" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="bottom" id="Execute Anonymous" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.5478615" weight="0.2740864" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32663316" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="right" id="Properties" order="7" />
       <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.43048576" />
     </layout-to-restore>
   </component>
@@ -863,23 +853,12 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/course3/fruit_main.py" />
-    <entry file="file://$PROJECT_DIR$/course3/course2.py" />
-    <entry file="file://$PROJECT_DIR$/course4/association_analysis/update_data.py" />
-    <entry file="file://$PROJECT_DIR$/course4/association_analysis/delete_data.py" />
     <entry file="file://$PROJECT_DIR$/course4/association_analysis/create_table.py" />
     <entry file="file://$PROJECT_DIR$/course4/association_analysis/Child.py" />
     <entry file="file://$PROJECT_DIR$/course4/association_analysis/insert_data.py" />
     <entry file="file://$PROJECT_DIR$/course4/association_analysis/read_file.py" />
     <entry file="file://$PROJECT_DIR$/course4/association_analysis/Nebula_LSTM.py" />
     <entry file="file://$PROJECT_DIR$/course4/association_analysis/output.json" />
-    <entry file="file://$PROJECT_DIR$/course2/mortgage_calculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course3/screenshot/__init__.py" />
     <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/report.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1015,9 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1039,15 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1088,10 +1055,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="1455">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course2/b.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course1/strings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course1/testa.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course2/function_example.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course2/mortgage_calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="287">
+            <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

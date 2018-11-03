@@ -1,4 +1,4 @@
-# Automation Testing Level II
+# Automation Testing Python
 
  Upon completion of this class, the student will be able to write non trivial Python programs dealing with a wide variety of subject matter domains. Topics include language components, working with a professional IDE,
  control flow constructs, strings, I/O, collections, classes, modules, and RESTful service. 
@@ -7,24 +7,42 @@
 # Course Outline
 
 ## Course Outline
+### Introduction to Automation(2h)
 
-### Python Programming Basics
+* Planning for Automation
+* Skills/Tools/Workflows
+
+### Python Programming Basics(8h)
 * Basic Syntax
 * Types of Variables and their declaration
 * If else condition usage and examples
 * Object Oriented Design
 
-### Python with Selenium
+### Python with Selenium(8h)
 * Python Selenium Driver
 * Robot framework
 
-### Database with python
+### Database with python(8h)
 * DataBase introduction
 * Python CRUD operation
 
 ### API Testing(8h)
+* Introduction to API
+* Restful Service 
 
-### Project Demo
+### Performance Testing(2h)
+* Jmeter Testing
+
+### Testing and Continuous Integration(3h)
+* Build environments
+* Structure regression
+* Business facing regression
+* Static analysis
+* Jenkins CI
+
+### Job Search and CV(2h)
+
+
 # Windows Installation 
 ## Python Download
 
