@@ -8,7 +8,6 @@
 
 ## Course Outline
 ### Introduction to Automation(2h)
-
 * Planning for Automation
 * Skills/Tools/Workflows
 
