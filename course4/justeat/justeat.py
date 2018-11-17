@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from selenium import webdriver
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
@@ -29,10 +30,44 @@ class AppDynamicsJob(unittest.TestCase):
         time.sleep(2)
         driver.find_element_by_xpath("//*[@id='skipToMain']/div[2]/div/div/button/span").click()
         driver.find_element_by_xpath(
-            '//*[@id="searchResults"]/div/div[1]/section[1]/a/div[2]/div/div[1]/header/h3').click()
+            '//*[@id="searchResults"]//header/h3[contains(text(),"Pizza Italia")]').click()
 
-        self.assertEqual("Pizza Italia (St. Laurent)", driver.find_element_by_xpath(
-        "(.//*[normalize-space(text()) and normalize-space(.)='Pizza Italia (St Laurent)'])[1]/following::h1[1]").text)
+        title =driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Pizza Italia (St Laurent)'])[1]/following::h1[1]")
+
+        self.assertEqual("Pizza Italia (St Laurent)",title.text)
+
+        found_trio1=False
+        for i in range(5):
+            if found_trio1:
+                break
+            else:
+                driver.execute_script("window.scrollTo(0, 10)")
+                time.sleep(1)
+                try:
+                    # select combo
+                    driver.find_element_by_xpath(
+                        '//*[@id="container-menu--card"]/section[1]/div/div[1]/h4').click()
+                    time.sleep(1)
+                    driver.find_element_by_xpath(
+                        '//*[@id="menuContainer"]/div[2]/div[2]/div/div[3]').click()
+                    time.sleep(1)
+                    driver.find_element_by_xpath(
+                        '//*[@id="addOptionsToBasket"]/button').click()
+                    time.sleep(1)
+                    # select salade
+                    driver.find_element_by_xpath(
+                        '//*[@id="container-menu--card"]/section[3]/div/div[1]/div[2]/button/div').click()
+                    time.sleep(1)
+                    found_trio1 = True
+                except Exception:
+                    print("Did not find trio1 yet, scrolling down...")
+
+
+
+
+        self.assertEqual("$24.87",driver.find_element_by_xpath('/html/body/header/div[2]/div[2]/div/div[1]').text)
+        time.sleep(5)
+
 
     def is_element_present(self, how, what):
         try:

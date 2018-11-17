@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921b8f33-5a11-4765-a29d-0d451874128f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/course1/helloworld.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course3/class_example/Person.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course3/class_example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course3/selenium_ide/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course3/selenium_ide/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course3/selenium_ide/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course3/selenium_ide/nbai_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course4/justeat/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course4/justeat/justeat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course_package_3/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course2/guass_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/course2/guass_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course2/test_guass_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/course2/test_guass_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/course2-3.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/document/course2-3.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course4/justeat/justeat.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4/justeat/justeat.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,8 +57,8 @@
       <file leaf-file-name="justeat.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/course4/justeat/justeat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+            <state relative-caret-position="237">
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
@@ -238,9 +224,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="826" />
+    <option name="x" value="2" />
+    <option name="y" value="25" />
+    <option name="width" value="1035" />
+    <option name="height" value="699" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -384,7 +371,7 @@
     <configuration name="report.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/python-workshop/course4/facebook/report.html">
       <method v="2" />
     </configuration>
-    <configuration name="Person" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="justeat" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -392,13 +379,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course3/class_example" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4/justeat" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course3/class_example/Person.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course4/justeat/justeat.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
@@ -656,19 +643,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.test_guass_function" />
-      <item itemvalue="Python.Person" />
       <item itemvalue="Python tests.Unittests in nbai_test.py" />
       <item itemvalue="Python tests.Unittests for nbai_test.AppDynamicsJob" />
       <item itemvalue="Python tests.Unittests for justeat.AppDynamicsJob" />
       <item itemvalue="Python tests.Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" />
+      <item itemvalue="Python.justeat" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" />
+        <item itemvalue="Python.justeat" />
         <item itemvalue="Python tests.Unittests for justeat.AppDynamicsJob" />
         <item itemvalue="Python tests.Unittests for nbai_test.AppDynamicsJob" />
         <item itemvalue="Python tests.Unittests in nbai_test.py" />
-        <item itemvalue="Python.Person" />
       </list>
     </recent_temporary>
   </component>
@@ -714,34 +701,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob - 2018.11.17 at 14h 32m 38s.xml">
-      <configuration name="Unittests for justeat.AppDynamicsJob" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob - 2018.11.17 at 14h 32m 54s.xml">
-      <configuration name="Unittests for justeat.AppDynamicsJob" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 14h 34m 39s.xml">
+    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 32m 18s.xml">
       <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 14h 37m 04s.xml">
+    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 32m 51s.xml">
       <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 14h 37m 23s.xml">
+    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 40m 27s.xml">
       <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 14h 39m 21s.xml">
+    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 40m 54s.xml">
       <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 14h 41m 00s.xml">
+    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 41m 28s.xml">
       <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 14h 41m 43s.xml">
+    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 43m 45s.xml">
       <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 14h 42m 49s.xml">
+    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 44m 48s.xml">
       <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 14h 44m 57s.xml">
+    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 46m 02s.xml">
+      <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 50m 42s.xml">
+      <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 51m 41s.xml">
       <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
   </component>
@@ -749,19 +736,20 @@
     <option name="totallyTimeSpent" value="9838000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1024" height="696" extended-state="6" />
+    <frame x="0" y="23" width="1024" height="698" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46335697" weight="0.3010967" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.40733197" side_tool="true" weight="0.28428093" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32554257" />
       <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.5478615" weight="0.33277592" />
       <window_info anchor="bottom" id="Python Console" order="19" weight="0.32943144" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.5968992" visible="true" weight="0.36560935" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.5968992" weight="0.36605656" />
       <window_info id="Structure" order="8" sideWeight="0.5456731" side_tool="true" weight="0.36390826" />
-      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.40296054" />
+      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.40233722" />
       <window_info id="Favorites" order="7" sideWeight="0.536643" side_tool="true" weight="0.3010967" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.27045074" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.4076539" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info id="Designer" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
@@ -784,7 +772,6 @@
       <window_info id="Nl-Palette" order="1" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Salesforce" order="14" sideWeight="0.4978701" weight="0.32915717" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.3256579" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="bottom" id="Message" order="2" />
@@ -802,7 +789,7 @@
       <window_info anchor="bottom" id="Python Console" order="19" weight="0.32943144" />
       <window_info anchor="right" id="Properties" order="7" />
       <window_info id="Image Layers" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.5968992" visible="true" weight="0.36560935" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.5968992" visible="true" weight="0.36605656" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="DB Browser" order="2" />
@@ -810,7 +797,7 @@
       <window_info anchor="bottom" id="Log Manager" order="11" />
       <window_info anchor="bottom" id="SFDX" order="8" />
       <window_info id="Favorites" order="7" sideWeight="0.536643" side_tool="true" weight="0.3010967" />
-      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.40296054" />
+      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.40233722" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
@@ -824,8 +811,8 @@
       <window_info id="Nl-Palette" order="1" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Salesforce" order="14" sideWeight="0.4978701" weight="0.32915717" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.3256579" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46335697" visible="true" weight="0.3010967" />
+      <window_info anchor="right" id="Capture Analysis" order="10" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46335697" weight="0.3010967" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="bottom" id="Execute Anonymous" order="13" />
       <window_info anchor="bottom" id="Message" order="2" />
@@ -836,8 +823,8 @@
       <window_info anchor="bottom" id="Debug Logs" order="12" weight="0.32943144" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.27045074" />
-      <window_info anchor="right" id="Capture Analysis" order="10" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32554257" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.4076539" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -894,7 +881,7 @@
           <line>13</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -1221,8 +1208,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course4/justeat/justeat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+        <state relative-caret-position="237">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>
