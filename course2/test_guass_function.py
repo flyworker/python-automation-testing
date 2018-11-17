@@ -1,5 +1,5 @@
 import unittest
-from course2.guass_function import *
+from course2.guass_function import gass_sum
 
 
 class TestGaussSum(unittest.TestCase):
