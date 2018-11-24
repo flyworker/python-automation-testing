@@ -15,10 +15,10 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(response_get_user_json['args']['user'], 'jim')
 
     def test_post_stange(self):
-        enter_point="post"
+        enter_point='/post'
         payload = {'strange': 'boom'}
-        response_get_user_json = requests.post(self.domain + enter_point, params=payload).json()
-        self.assertEqual(response_get_user_json['form']['strange'], 'boom')
+        response_post_user_json = requests.post(self.domain + enter_point, params=payload).json()
+        self.assertEqual(response_post_user_json['args']['strange'], 'boom')
 
 
 if __name__ == '__main__':

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921b8f33-5a11-4765-a29d-0d451874128f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/course5/api_get_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course5/api_get_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/course5/api_get_test.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,8 +81,8 @@
       <file leaf-file-name="api_get_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/course5/api_get_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+            <state relative-caret-position="158">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -347,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for api_get_test.TestStringMethods.test_get_user">
+  <component name="RunManager" selected="Python tests.Unittests for api_get_test.TestStringMethods.test_post_stange">
     <configuration name="report.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/python-workshop/course4/facebook/report.html">
       <method v="2" />
     </configuration>
@@ -561,7 +560,7 @@
       <option name="_new_target" value="&quot;api_get_test.TestStringMethods.test_get_user&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for iga.AppDynamicsJob" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for api_get_test.TestStringMethods.test_post_stange" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -572,7 +571,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;iga.AppDynamicsJob&quot;" />
+      <option name="_new_target" value="&quot;api_get_test.TestStringMethods.test_post_stange&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for iga.AppDynamicsJob.test_app_dynamics_job" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -589,19 +588,19 @@
       <option name="_new_target" value="&quot;iga.AppDynamicsJob.test_app_dynamics_job&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in api_get_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4/justeat" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;justeat.AppDynamicsJob.test_app_dynamics_job&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/course5/api_get_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <module name="python-workshop" />
@@ -619,19 +618,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.test_guass_function" />
-      <item itemvalue="Python tests.Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" />
       <item itemvalue="Python tests.Unittests for iga.AppDynamicsJob.test_app_dynamics_job" />
-      <item itemvalue="Python tests.Unittests for iga.AppDynamicsJob" />
       <item itemvalue="Python tests.Unittests for api_get_test.TestStringMethods" />
       <item itemvalue="Python tests.Unittests for api_get_test.TestStringMethods.test_get_user" />
+      <item itemvalue="Python tests.Unittests for api_get_test.TestStringMethods.test_post_stange" />
+      <item itemvalue="Python tests.Unittests in api_get_test.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for api_get_test.TestStringMethods.test_post_stange" />
+        <item itemvalue="Python tests.Unittests in api_get_test.py" />
         <item itemvalue="Python tests.Unittests for api_get_test.TestStringMethods.test_get_user" />
         <item itemvalue="Python tests.Unittests for api_get_test.TestStringMethods" />
         <item itemvalue="Python tests.Unittests for iga.AppDynamicsJob.test_app_dynamics_job" />
-        <item itemvalue="Python tests.Unittests for iga.AppDynamicsJob" />
-        <item itemvalue="Python tests.Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" />
       </list>
     </recent_temporary>
   </component>
@@ -677,21 +676,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_iga_AppDynamicsJob_test_app_dynamics_job - 2018.11.24 at 15h 03m 43s.xml">
-      <configuration name="Unittests for iga.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_iga_AppDynamicsJob_test_app_dynamics_job - 2018.11.24 at 15h 04m 32s.xml">
-      <configuration name="Unittests for iga.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_iga_AppDynamicsJob_test_app_dynamics_job - 2018.11.24 at 15h 08m 57s.xml">
-      <configuration name="Unittests for iga.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_api_get_test_TestStringMethods - 2018.11.24 at 17h 37m 56s.xml">
-      <configuration name="Unittests for api_get_test.TestStringMethods" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_api_get_test_TestStringMethods_test_get_user - 2018.11.24 at 17h 39m 00s.xml">
-      <configuration name="Unittests for api_get_test.TestStringMethods.test_get_user" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_api_get_test_TestStringMethods - 2018.11.24 at 17h 39m 20s.xml">
       <configuration name="Unittests for api_get_test.TestStringMethods" configurationId="tests" />
     </history-entry>
@@ -707,6 +691,21 @@
     <history-entry file="Unittests_for_api_get_test_TestStringMethods - 2018.11.24 at 17h 50m 31s.xml">
       <configuration name="Unittests for api_get_test.TestStringMethods" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_api_get_test_TestStringMethods - 2018.11.24 at 17h 52m 03s.xml">
+      <configuration name="Unittests for api_get_test.TestStringMethods" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_api_get_test_TestStringMethods_test_get_user - 2018.11.24 at 17h 52m 09s.xml">
+      <configuration name="Unittests for api_get_test.TestStringMethods.test_get_user" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_api_get_test_TestStringMethods_test_get_user - 2018.11.24 at 17h 52m 43s.xml">
+      <configuration name="Unittests for api_get_test.TestStringMethods.test_get_user" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_api_get_test_TestStringMethods_test_get_user - 2018.11.24 at 17h 54m 07s.xml">
+      <configuration name="Unittests for api_get_test.TestStringMethods.test_get_user" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_api_get_test_TestStringMethods_test_post_stange - 2018.11.24 at 18h 05m 40s.xml">
+      <configuration name="Unittests for api_get_test.TestStringMethods.test_post_stange" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="9838000" />
@@ -718,12 +717,12 @@
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46335697" weight="0.31306082" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.40733197" side_tool="true" weight="0.28428093" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.5968992" weight="0.48662207" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.5968992" visible="true" weight="0.32608697" />
       <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.5478615" weight="0.33277592" />
       <window_info anchor="bottom" id="Python Console" order="19" weight="0.32943144" />
       <window_info id="Structure" order="8" sideWeight="0.5456731" side_tool="true" weight="0.36390826" />
       <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.40301004" />
-      <window_info active="true" anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" visible="true" weight="0.40635452" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.40635452" />
       <window_info id="Favorites" order="7" sideWeight="0.536643" side_tool="true" weight="0.3010967" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info id="Designer" order="4" />
@@ -858,7 +857,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/course5/api_get_test.py</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
@@ -1198,8 +1197,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course5/api_get_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        <state relative-caret-position="158">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
