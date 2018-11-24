@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921b8f33-5a11-4765-a29d-0d451874128f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/course4/justeat/justeat.py" beforeDir="false" afterPath="$PROJECT_DIR$/course4/justeat/justeat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course5/iga.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/~$course2-3.pptx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +48,7 @@
       <file leaf-file-name="nbai_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course3/selenium_ide/nbai_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
+            <state relative-caret-position="210">
               <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
@@ -54,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="justeat.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="justeat.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course4/justeat/justeat.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="237">
@@ -62,6 +65,27 @@
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iga.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course5/iga.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expected_conditions.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/support/expected_conditions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="146" selection-start-line="146" selection-end-line="146" />
             </state>
           </provider>
         </entry>
@@ -87,7 +111,7 @@
       <file leaf-file-name="facebook_login_page_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course3/python_unit/facebook_login_page_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
+            <state relative-caret-position="555">
               <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
             </state>
           </provider>
@@ -98,24 +122,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webdriver.py" pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/chrome/webdriver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webdriver.py" pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/firefox/webdriver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -163,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/course3/robert-quick-start/facebook.robot" />
         <option value="$PROJECT_DIR$/course3/robert-quick-start/lib/FacebookLibrary.py" />
         <option value="$PROJECT_DIR$/course4/lstm.py" />
         <option value="$PROJECT_DIR$/course4/association_analysis/Nebula_LSTM.py" />
@@ -214,6 +219,7 @@
         <option value="$PROJECT_DIR$/course3/ide/nbai_test.py" />
         <option value="$PROJECT_DIR$/course3/selenium_ide/nbai_test.py" />
         <option value="$PROJECT_DIR$/course4/justeat/justeat.py" />
+        <option value="$PROJECT_DIR$/course5/iga.py" />
       </list>
     </option>
   </component>
@@ -223,11 +229,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="y" value="25" />
-    <option name="width" value="1035" />
-    <option name="height" value="699" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="30" />
+    <option name="y" value="23" />
+    <option name="width" value="1024" />
+    <option name="height" value="695" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -261,27 +267,6 @@
             <path>
               <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="course1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="course2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="course3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="course3" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium_ide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
               <item name="course4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -309,6 +294,11 @@
               <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
               <item name="document" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -340,19 +330,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/course4/justeat" />
-      <recent name="$PROJECT_DIR$/course3/selenium_ide" />
-      <recent name="$PROJECT_DIR$/course2" />
-      <recent name="$PROJECT_DIR$/document" />
-      <recent name="$PROJECT_DIR$/course7" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/document" />
       <recent name="$PROJECT_DIR$/course4" />
       <recent name="$PROJECT_DIR$/course3" />
       <recent name="$PROJECT_DIR$/course2" />
       <recent name="$PROJECT_DIR$/course3/robot-quick-start/lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/driver" />
+      <recent name="$PROJECT_DIR$/course4/justeat" />
+      <recent name="$PROJECT_DIR$/course3/selenium_ide" />
+      <recent name="$PROJECT_DIR$/course2" />
+      <recent name="$PROJECT_DIR$/document" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -367,7 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for justeat.AppDynamicsJob.test_app_dynamics_job">
+  <component name="RunManager" selected="Python tests.Unittests for iga.AppDynamicsJob.test_app_dynamics_job">
     <configuration name="report.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/python-workshop/course4/facebook/report.html">
       <method v="2" />
     </configuration>
@@ -571,6 +561,34 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for iga.AppDynamicsJob" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-workshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;iga.AppDynamicsJob&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for iga.AppDynamicsJob.test_app_dynamics_job" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-workshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;iga.AppDynamicsJob.test_app_dynamics_job&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <configuration name="Unittests for justeat.AppDynamicsJob" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -599,34 +617,6 @@
       <option name="_new_target" value="&quot;justeat.AppDynamicsJob.test_app_dynamics_job&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for nbai_test.AppDynamicsJob" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="python-workshop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course3/selenium_ide" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;nbai_test.AppDynamicsJob&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests in nbai_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="python-workshop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course3/selenium_ide" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/course3/selenium_ide/nbai_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <module name="python-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -643,19 +633,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.test_guass_function" />
-      <item itemvalue="Python tests.Unittests in nbai_test.py" />
-      <item itemvalue="Python tests.Unittests for nbai_test.AppDynamicsJob" />
       <item itemvalue="Python tests.Unittests for justeat.AppDynamicsJob" />
       <item itemvalue="Python tests.Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" />
       <item itemvalue="Python.justeat" />
+      <item itemvalue="Python tests.Unittests for iga.AppDynamicsJob.test_app_dynamics_job" />
+      <item itemvalue="Python tests.Unittests for iga.AppDynamicsJob" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for iga.AppDynamicsJob.test_app_dynamics_job" />
+        <item itemvalue="Python tests.Unittests for iga.AppDynamicsJob" />
         <item itemvalue="Python tests.Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" />
         <item itemvalue="Python.justeat" />
         <item itemvalue="Python tests.Unittests for justeat.AppDynamicsJob" />
-        <item itemvalue="Python tests.Unittests for nbai_test.AppDynamicsJob" />
-        <item itemvalue="Python tests.Unittests in nbai_test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -701,55 +691,54 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 32m 18s.xml">
-      <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
+    <history-entry file="Unittests_for_iga_AppDynamicsJob_test_app_dynamics_job - 2018.11.24 at 14h 46m 38s.xml">
+      <configuration name="Unittests for iga.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 32m 51s.xml">
-      <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
+    <history-entry file="Unittests_for_iga_AppDynamicsJob_test_app_dynamics_job - 2018.11.24 at 14h 48m 43s.xml">
+      <configuration name="Unittests for iga.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 40m 27s.xml">
-      <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
+    <history-entry file="Unittests_for_iga_AppDynamicsJob_test_app_dynamics_job - 2018.11.24 at 14h 52m 22s.xml">
+      <configuration name="Unittests for iga.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 40m 54s.xml">
-      <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
+    <history-entry file="Unittests_for_iga_AppDynamicsJob_test_app_dynamics_job - 2018.11.24 at 14h 53m 13s.xml">
+      <configuration name="Unittests for iga.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 41m 28s.xml">
-      <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
+    <history-entry file="Unittests_for_iga_AppDynamicsJob_test_app_dynamics_job - 2018.11.24 at 14h 54m 20s.xml">
+      <configuration name="Unittests for iga.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 43m 45s.xml">
-      <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
+    <history-entry file="Unittests_for_iga_AppDynamicsJob_test_app_dynamics_job - 2018.11.24 at 14h 55m 41s.xml">
+      <configuration name="Unittests for iga.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 44m 48s.xml">
-      <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
+    <history-entry file="Unittests_for_iga_AppDynamicsJob_test_app_dynamics_job - 2018.11.24 at 14h 57m 57s.xml">
+      <configuration name="Unittests for iga.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 46m 02s.xml">
-      <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
+    <history-entry file="Unittests_for_iga_AppDynamicsJob_test_app_dynamics_job - 2018.11.24 at 14h 58m 27s.xml">
+      <configuration name="Unittests for iga.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 50m 42s.xml">
-      <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
+    <history-entry file="Unittests_for_iga_AppDynamicsJob_test_app_dynamics_job - 2018.11.24 at 15h 01m 34s.xml">
+      <configuration name="Unittests for iga.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2018.11.17 at 17h 51m 41s.xml">
-      <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
+    <history-entry file="Unittests_for_iga_AppDynamicsJob_test_app_dynamics_job - 2018.11.24 at 15h 02m 08s.xml">
+      <configuration name="Unittests for iga.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="9838000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1024" height="698" extended-state="6" />
+    <frame x="30" y="23" width="1024" height="695" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46335697" weight="0.3010967" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46335697" weight="0.23728813" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.40733197" side_tool="true" weight="0.28428093" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32554257" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.5968992" visible="true" weight="0.3645485" />
       <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.5478615" weight="0.33277592" />
       <window_info anchor="bottom" id="Python Console" order="19" weight="0.32943144" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.5968992" weight="0.36605656" />
       <window_info id="Structure" order="8" sideWeight="0.5456731" side_tool="true" weight="0.36390826" />
-      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.40233722" />
+      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.40301004" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.40635452" />
       <window_info id="Favorites" order="7" sideWeight="0.536643" side_tool="true" weight="0.3010967" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.4076539" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info id="Designer" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
@@ -759,21 +748,22 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="SFDX" order="8" />
       <window_info anchor="bottom" id="Log Manager" order="11" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SFDX" order="8" />
       <window_info anchor="bottom" id="Execute Anonymous" order="13" />
-      <window_info anchor="bottom" id="Messages" order="16" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info id="UI Designer" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Data View" order="12" />
+      <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info id="Nl-Palette" order="1" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Salesforce" order="14" sideWeight="0.4978701" weight="0.32915717" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32554257" />
       <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="bottom" id="Messages" order="16" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="right" id="Properties" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
@@ -789,15 +779,15 @@
       <window_info anchor="bottom" id="Python Console" order="19" weight="0.32943144" />
       <window_info anchor="right" id="Properties" order="7" />
       <window_info id="Image Layers" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.5968992" visible="true" weight="0.36605656" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.5968992" visible="true" weight="0.3645485" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="bottom" id="Log Manager" order="11" />
       <window_info anchor="bottom" id="SFDX" order="8" />
-      <window_info id="Favorites" order="7" sideWeight="0.536643" side_tool="true" weight="0.3010967" />
-      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.40233722" />
+      <window_info anchor="bottom" id="Execute Anonymous" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.40301004" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
@@ -805,16 +795,16 @@
       <window_info anchor="bottom" id="Messages" order="16" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Data View" order="12" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info id="Favorites" order="7" sideWeight="0.536643" side_tool="true" weight="0.3010967" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.5478615" weight="0.33277592" />
       <window_info id="Nl-Palette" order="1" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Salesforce" order="14" sideWeight="0.4978701" weight="0.32915717" />
-      <window_info anchor="right" id="Capture Analysis" order="10" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46335697" weight="0.3010967" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32554257" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46335697" visible="true" weight="0.23728813" />
       <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="bottom" id="Execute Anonymous" order="13" />
+      <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
@@ -823,8 +813,8 @@
       <window_info anchor="bottom" id="Debug Logs" order="12" weight="0.32943144" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32554257" />
       <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.4076539" />
+      <window_info anchor="right" id="Capture Analysis" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -881,7 +871,7 @@
           <line>13</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -890,18 +880,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/course4/facebook/report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-335" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/forloop.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course4/facebook/log.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1008,7 +986,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="165">
@@ -1017,6 +994,7 @@
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/course1/hello_world.py" />
     <entry file="file://$PROJECT_DIR$/course2/b.py">
@@ -1131,9 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1191,14 +1166,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course3/python_unit/facebook_login_page_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
+        <state relative-caret-position="555">
           <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/course3/selenium_ide/nbai_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
+        <state relative-caret-position="210">
           <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
@@ -1212,6 +1187,23 @@
           <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course5/iga.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
