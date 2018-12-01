@@ -28,4 +28,4 @@ Take an annotated screenshot of RobotFramework.org
 *** Keywords ***
 
 Setup chromedriver
-  Set Environment Variable  webdriver.chrome.driver  ./lib/chromedriver
+  Set Environment Variable  webdriver.chrome.driver  ./robot_lib/chromedriver

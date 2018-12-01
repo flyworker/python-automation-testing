@@ -16,6 +16,15 @@ ${NO APLE GET}     No apple get
 ${PWD INVALID CONTENT}    Password must be a combination of lowercase and uppercase letters and numbers
 
 *** Test Cases ***
+
+For-Loop-Elements
+    @{ITEMS}    Create List    Star Trek    Star Wars    Perry Rhodan
+    :FOR    ${ELEMENT}    IN    @{ITEMS}
+    \    Log    ${ELEMENT}
+    \    ${ELEMENT}    Replace String    ${ELEMENT}    ${SPACE}    ${EMPTY}
+    \    Attempt to Login with Credentials    ${ELEMENT}    P4ssw0rd
+    \    Log    ${ELEMENT}
+
 User can create an account and log in
     Create Valid User    fred    P4ssw0rd
     Attempt to Login with Credentials    fred    P4ssw0rd
