@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.2 on darwin)" generated="20181208 15:03:36.676">
+<suite id="s1" name="Justeat" source="/Users/ccao/python-workshop/course4/justeat/justeat.robot">
+<test id="s1-t1" name="User can find a store close to the location">
+<kw name="User Enter Address In Search Box" library="OrderLibrary">
+<arguments>
+<arg>${ADDRESS}</arg>
+</arguments>
+<msg timestamp="20181208 15:03:47.256" level="INFO">Location Rue Sherbrooke Ouest, 666</msg>
+<status status="PASS" starttime="20181208 15:03:38.705" endtime="20181208 15:03:47.256"></status>
+</kw>
+<kw name="Chose The First Store Avaliable" library="OrderLibrary">
+<status status="PASS" starttime="20181208 15:03:47.256" endtime="20181208 15:03:52.360"></status>
+</kw>
+<kw name="Store Name Should Be" library="OrderLibrary">
+<arguments>
+<arg>${STORE_NAME}</arg>
+</arguments>
+<status status="PASS" starttime="20181208 15:03:52.361" endtime="20181208 15:03:52.391"></status>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20181208 15:03:52.391" endtime="20181208 15:03:52.391"></status>
+</kw>
+<kw name="Close test browser" type="teardown">
+<msg timestamp="20181208 15:03:52.397" level="FAIL">No keyword with name 'Close test browser' found.</msg>
+<status status="FAIL" starttime="20181208 15:03:52.397" endtime="20181208 15:03:52.397">No keyword with name 'Close test browser' found.</status>
+</kw>
+<tags>
+<tag>UAT</tag>
+</tags>
+<status status="FAIL" starttime="20181208 15:03:38.704" endtime="20181208 15:03:52.397" critical="yes">Teardown failed:
+No keyword with name 'Close test browser' found.</status>
+</test>
+<status status="FAIL" starttime="20181208 15:03:36.678" endtime="20181208 15:03:52.398"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">UAT</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Justeat">Justeat</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
