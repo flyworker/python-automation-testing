@@ -1,4 +1,4 @@
-# Automation Testing Python
+# Automation Python
 
  Upon completion of this class, the student will be able to write non trivial Python programs dealing with a wide variety of subject matter domains. Topics include language components, working with a professional IDE,
  control flow constructs, strings, I/O, collections, classes, modules, and RESTful service. 
