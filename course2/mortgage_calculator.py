@@ -84,8 +84,8 @@ if __name__ == "__main__":
     Monthly payment: ???
     
     ''')
-    plan_a = MortgageCalculator(0.037, 200000, 400000, 25)
-    plan_b = MortgageCalculator(0.035, 200000, 400000, 25)
+    plan_a = MortgageCalculator(0.037, 80000, 400000, 25)
+    plan_b = MortgageCalculator(0.035, 80000, 400000, 25)
 
     plan_c = MortgageCalculator(interest_rate=0.035, principal_pay=300000, total_value=400000, terms_year=25)
     cash_back = 1500
