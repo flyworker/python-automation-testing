@@ -1,3 +1,6 @@
+from course2.function_example import printme
+
+
 def gass_sum(count=100):
     if type(count).__name__ != 'int':
         return "Error,type not supported"
@@ -18,4 +21,5 @@ def gass_sum(count=100):
 if __name__ == "__main__":
     print(gass_sum(100))
     print(gass_sum(-100))
+    printme('Jim1')
 

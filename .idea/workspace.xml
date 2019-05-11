@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921b8f33-5a11-4765-a29d-0d451874128f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/course1/practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course2/Person.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course2/test_person_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course2/function_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/course2/function_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course2/guass_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/course2/guass_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course2/test_guass_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/course2/test_guass_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/Test-case-template-xls.xls" beforeDir="false" afterPath="$PROJECT_DIR$/document/Test-case-template-xls.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/course2-3.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/document/course2-3.pptx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course2/mortgage_calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
+            <state relative-caret-position="188">
               <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
             </state>
           </provider>
@@ -44,8 +48,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course2/function_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course2/guass_function.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course2/Person.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -59,49 +81,46 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course1/practice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
+            <state relative-caret-position="187">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course1/testa.py">
+        <entry file="file://$PROJECT_DIR$/course2/test_guass_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="165">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course1/strings.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course1/list.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/sample.robot">
+        <entry file="file://$PROJECT_DIR$/course2/test_person_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="195">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/course2/test_suite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,10 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/course4/association_analysis/update_data.py" />
-        <option value="$PROJECT_DIR$/course1/a.py" />
-        <option value="$PROJECT_DIR$/course2/a.py" />
-        <option value="$PROJECT_DIR$/course3/Book.py" />
         <option value="$PROJECT_DIR$/course3/EBook.py" />
         <option value="$PROJECT_DIR$/course3/WebBook.py" />
         <option value="$PROJECT_DIR$/projects/automation/facebook_login_page_test.py" />
@@ -168,7 +183,6 @@
         <option value="$PROJECT_DIR$/course6/read_data.py" />
         <option value="$PROJECT_DIR$/course7/employee_web.py" />
         <option value="$PROJECT_DIR$/course1/list.py" />
-        <option value="$PROJECT_DIR$/course2/function_example.py" />
         <option value="$PROJECT_DIR$/course1/testa.py" />
         <option value="$PROJECT_DIR$/course2/b.py" />
         <option value="$PROJECT_DIR$/course1/hello_world.py" />
@@ -190,6 +204,11 @@
         <option value="$PROJECT_DIR$/course4/api_test.py" />
         <option value="$PROJECT_DIR$/course2/mortgage_calculator.py" />
         <option value="$PROJECT_DIR$/course1/practice.py" />
+        <option value="$PROJECT_DIR$/course2/guass_function.py" />
+        <option value="$PROJECT_DIR$/course2/function_example.py" />
+        <option value="$PROJECT_DIR$/course2/test_guass_function.py" />
+        <option value="$PROJECT_DIR$/course2/test_person_function.py" />
+        <option value="$PROJECT_DIR$/course2/Person.py" />
       </list>
     </option>
   </component>
@@ -258,6 +277,23 @@
             <path>
               <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="course3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="class_example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="course3" type="462c0819:PsiDirectoryNode" />
+              <item name="python_unit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
               <item name="course7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -299,11 +335,11 @@
       <recent name="$PROJECT_DIR$/course3/robot-quick-start" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/course2" />
       <recent name="$PROJECT_DIR$/course1" />
       <recent name="$PROJECT_DIR$/course4/facebook" />
       <recent name="$PROJECT_DIR$/course4/robot-quick-start/robot_lib" />
       <recent name="$PROJECT_DIR$/course4/python_unit" />
-      <recent name="$PROJECT_DIR$/course6" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -318,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mortgage_calculator">
+  <component name="RunManager" selected="Python tests.Unittests for test_person_function.TestGaussSum.test_student_set_name">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -702,108 +738,79 @@
       <method />
     </configuration>
     <configuration name="report.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/python-workshop/course4/facebook/report.html" />
-    <configuration name="api_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for test_guass_function.TestGaussSum" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4/robot-quick-start" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course4/api_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="facebook_login_page_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-workshop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4/python_unit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course4/python_unit/facebook_login_page_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mortgage_calculator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-workshop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course2/mortgage_calculator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sample_test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-workshop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4/python_unit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course4/python_unit/sample_test2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_guass_function.TestGaussSum&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="docutils task in README.rst" type="docs" factoryName="Docutils task" temporary="true">
+    <configuration name="Unittests for test_guass_function.TestGaussSum.test_gass_sum" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course3/robot-quick-start" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="docutils_input_file" value="$PROJECT_DIR$/course3/robot-quick-start/README.rst" />
-      <option name="docutils_output_file" value="$PROJECT_DIR$/course3/robot-quick-start/README.html" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="rst2html" />
-      <option name="docutils_open_in_browser" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_guass_function.TestGaussSum.test_gass_sum&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_guass_function.TestGaussSum.test_gass_sum_string" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-workshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_guass_function.TestGaussSum.test_gass_sum_string&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_person_function.TestGaussSum.test_student_set_name" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-workshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_person_function.TestGaussSum.test_student_set_name&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_guass_function.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-workshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/course2/test_guass_function.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -822,19 +829,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.api_test" />
-      <item itemvalue="Python.facebook_login_page_test" />
-      <item itemvalue="Python.mortgage_calculator" />
-      <item itemvalue="Python.sample_test2" />
-      <item itemvalue="Python docs.docutils task in README.rst" />
+      <item itemvalue="Python tests.Unittests for test_guass_function.TestGaussSum.test_gass_sum_string" />
+      <item itemvalue="Python tests.Unittests in test_guass_function.py" />
+      <item itemvalue="Python tests.Unittests for test_guass_function.TestGaussSum" />
+      <item itemvalue="Python tests.Unittests for test_guass_function.TestGaussSum.test_gass_sum" />
+      <item itemvalue="Python tests.Unittests for test_person_function.TestGaussSum.test_student_set_name" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mortgage_calculator" />
-        <item itemvalue="Python.api_test" />
-        <item itemvalue="Python docs.docutils task in README.rst" />
-        <item itemvalue="Python.sample_test2" />
-        <item itemvalue="Python.facebook_login_page_test" />
+        <item itemvalue="Python tests.Unittests for test_person_function.TestGaussSum.test_student_set_name" />
+        <item itemvalue="Python tests.Unittests for test_guass_function.TestGaussSum.test_gass_sum" />
+        <item itemvalue="Python tests.Unittests for test_guass_function.TestGaussSum" />
+        <item itemvalue="Python tests.Unittests in test_guass_function.py" />
+        <item itemvalue="Python tests.Unittests for test_guass_function.TestGaussSum.test_gass_sum_string" />
       </list>
     </recent_temporary>
   </component>
@@ -876,21 +883,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_python_unit_TestStringMethods_test_isupper - 2018.07.21 at 14h 44m 00s.xml">
-      <configuration name="Unittests for python_unit.TestStringMethods.test_isupper" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_python_unit_TestStringMethods_test_upper - 2018.07.21 at 15h 15m 24s.xml">
-      <configuration name="Unittests for python_unit.TestStringMethods.test_upper" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_python_unit_TestStringMethods_test_plus - 2018.07.21 at 15h 17m 20s.xml">
-      <configuration name="Unittests for python_unit.TestStringMethods.test_plus" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_python_unit_TestStringMethods_test_plus - 2018.07.21 at 15h 17m 27s.xml">
-      <configuration name="Unittests for python_unit.TestStringMethods.test_plus" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_python_unit_TestStringMethods_test_plus - 2018.07.21 at 15h 19m 49s.xml">
-      <configuration name="Unittests for python_unit.TestStringMethods.test_plus" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_python_unit_TestStringMethods_test_plus - 2018.07.21 at 15h 19m 55s.xml">
       <configuration name="Unittests for python_unit.TestStringMethods.test_plus" configurationId="tests" />
     </history-entry>
@@ -903,6 +895,24 @@
     <history-entry file="Unittests_for_python_new_TestStringMethods_test_split - 2018.07.21 at 16h 00m 35s.xml">
       <configuration name="Unittests for python_new.TestStringMethods.test_split" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_guass_function_TestGaussSum_test_gass_sum_string - 2019.05.11 at 17h 39m 38s.xml">
+      <configuration name="Unittests for test_guass_function.TestGaussSum.test_gass_sum_string" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_guass_function_py - 2019.05.11 at 17h 39m 56s.xml">
+      <configuration name="Unittests in test_guass_function.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_guass_function_TestGaussSum - 2019.05.11 at 17h 42m 52s.xml">
+      <configuration name="Unittests for test_guass_function.TestGaussSum" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_guass_function_TestGaussSum_test_gass_sum - 2019.05.11 at 17h 42m 58s.xml">
+      <configuration name="Unittests for test_guass_function.TestGaussSum.test_gass_sum" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_guass_function_TestGaussSum_test_gass_sum - 2019.05.11 at 17h 44m 44s.xml">
+      <configuration name="Unittests for test_guass_function.TestGaussSum.test_gass_sum" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_person_function_TestGaussSum_test_student_set_name - 2019.05.11 at 17h 48m 21s.xml">
+      <configuration name="Unittests for test_person_function.TestGaussSum.test_student_set_name" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="8677000" />
@@ -911,7 +921,7 @@
     <frame x="0" y="23" width="1024" height="696" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23828514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23828514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24925224" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -924,7 +934,7 @@
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32663316" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.5968992" weight="0.2578019" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.5968992" visible="true" weight="0.37913907" />
       <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.29900333" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -937,7 +947,7 @@
       <window_info anchor="bottom" id="Salesforce" order="14" sideWeight="0.4978701" weight="0.32915717" />
       <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.5478615" weight="0.2740864" />
       <window_info anchor="bottom" id="Messages" order="16" />
-      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.48178807" />
+      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.16059603" />
       <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.40733197" side_tool="true" weight="0.28428093" />
       <window_info anchor="bottom" id="Python Console" order="19" weight="0.32943144" />
       <window_info anchor="right" id="SciView" order="0" />
@@ -1019,21 +1029,14 @@
           <line>47</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/course2/test_person_function.py</url>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/course4/association_analysis/update_data.py" />
-    <entry file="file://$PROJECT_DIR$/course4/association_analysis/delete_data.py" />
-    <entry file="file://$PROJECT_DIR$/course4/association_analysis/create_table.py" />
-    <entry file="file://$PROJECT_DIR$/course4/association_analysis/Child.py" />
-    <entry file="file://$PROJECT_DIR$/course7/employee_web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course4/association_analysis/insert_data.py" />
     <entry file="file://$PROJECT_DIR$/course4/association_analysis/read_file.py" />
     <entry file="file://$PROJECT_DIR$/course4/association_analysis/Nebula_LSTM.py" />
@@ -1211,13 +1214,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course2/mortgage_calculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course1/strings.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1234,13 +1230,6 @@
     <entry file="file://$PROJECT_DIR$/course2/b.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/course2/function_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -1250,8 +1239,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course1/practice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
+        <state relative-caret-position="187">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course2/mortgage_calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course2/function_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course2/guass_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course2/test_suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course2/test_guass_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course2/test_person_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course2/Person.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
         </state>
       </provider>
     </entry>

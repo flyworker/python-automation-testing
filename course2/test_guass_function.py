@@ -11,7 +11,7 @@ class TestGaussSum(unittest.TestCase):
 
     def test_gass_sum(self):
         print("test_gass_sum")
-        self.assertEqual(gass_sum(100), 5050)
+        self.assertEqual(gass_sum(100), 5050,"Not equal")
 
     @unittest.skip("Not implemented")
     def test_gass_sum_negative(self):
