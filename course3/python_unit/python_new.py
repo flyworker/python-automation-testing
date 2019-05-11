@@ -1,7 +1,5 @@
 import unittest
 
-from course4.python_unit.souce_code import converting_chinese_to_english
-
 
 class TestStringMethods(unittest.TestCase):
 
@@ -11,9 +9,6 @@ class TestStringMethods(unittest.TestCase):
     def test_isupper(self):
         self.assertTrue('FOO'.isupper())
         self.assertFalse('Foo'.isupper())
-
-    def test_plus(self):
-        self.assertEqual(converting_chinese_to_english("天"),'sky')
 
     def test_split(self):
         s = 'hello world'

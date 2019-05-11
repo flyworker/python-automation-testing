@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.0.4 (Python 3.6.2 on darwin)" generated="20180728 16:43:28.268">
+<robot generator="Robot 3.0.4 (Python 3.6.2 on darwin)" generated="20181201 17:27:11.911">
 <suite id="s1" name="Facebook" source="/Users/ccao/python-workshop/course4/facebook/facebook.robot">
 <test id="s1-t1" name="User cannot log in with bad password">
 <kw name="Generate Random String" library="String">
@@ -10,28 +10,27 @@
 <assign>
 <var>${RANDOM_STRING}</var>
 </assign>
-<msg timestamp="20180728 16:43:32.134" level="INFO">${RANDOM_STRING} = AOGdW</msg>
-<status status="PASS" starttime="20180728 16:43:32.133" endtime="20180728 16:43:32.134"></status>
+<msg timestamp="20181201 17:27:16.198" level="INFO">${RANDOM_STRING} = Vl4lo</msg>
+<status status="PASS" starttime="20181201 17:27:16.197" endtime="20181201 17:27:16.198"></status>
 </kw>
 <kw name="Attempt To Login With Credentials" library="LoginLibrary">
 <arguments>
 <arg>${RANDOM_STRING}</arg>
 <arg>${PASSWORD}</arg>
 </arguments>
-<status status="PASS" starttime="20180728 16:43:32.134" endtime="20180728 16:43:36.616"></status>
+<status status="PASS" starttime="20181201 17:27:16.198" endtime="20181201 17:27:20.474"></status>
 </kw>
 <kw name="Status Should Be" library="LoginLibrary">
 <arguments>
-<arg>Log into Facebook</arg>
+<arg>Log Into Facebook</arg>
 </arguments>
-<msg timestamp="20180728 16:43:36.644" level="FAIL">Expected status should be 'Log into Facebook' but was 'Log Into Facebook'.</msg>
-<status status="FAIL" starttime="20180728 16:43:36.616" endtime="20180728 16:43:36.644"></status>
+<status status="PASS" starttime="20181201 17:27:20.475" endtime="20181201 17:27:20.501"></status>
 </kw>
 <tags>
 <tag>facebook</tag>
 <tag>UAT</tag>
 </tags>
-<status status="FAIL" starttime="20180728 16:43:32.132" endtime="20180728 16:43:36.645" critical="yes">Expected status should be 'Log into Facebook' but was 'Log Into Facebook'.</status>
+<status status="PASS" starttime="20181201 17:27:16.196" endtime="20181201 17:27:20.502" critical="yes"></status>
 </test>
 <test id="s1-t2" name="User can create an account and log in">
 <kw name="Generate Random String" library="String">
@@ -42,8 +41,8 @@
 <assign>
 <var>${RANDOM_USERNAME}</var>
 </assign>
-<msg timestamp="20180728 16:43:36.647" level="INFO">${RANDOM_USERNAME} = WXEi4</msg>
-<status status="PASS" starttime="20180728 16:43:36.646" endtime="20180728 16:43:36.647"></status>
+<msg timestamp="20181201 17:27:20.504" level="INFO">${RANDOM_USERNAME} = lPwCa</msg>
+<status status="PASS" starttime="20181201 17:27:20.503" endtime="20181201 17:27:20.504"></status>
 </kw>
 <kw name="Create valid user">
 <arguments>
@@ -55,52 +54,52 @@
 <arg>${username}</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20180728 16:43:40.376" level="INFO">create WXEi4 J4n3D0e</msg>
-<status status="PASS" starttime="20180728 16:43:36.647" endtime="20180728 16:43:40.376"></status>
+<msg timestamp="20181201 17:27:24.650" level="INFO">create lPwCa J4n3D0e</msg>
+<status status="PASS" starttime="20181201 17:27:20.504" endtime="20181201 17:27:24.650"></status>
 </kw>
-<status status="PASS" starttime="20180728 16:43:36.647" endtime="20180728 16:43:40.377"></status>
+<status status="PASS" starttime="20181201 17:27:20.504" endtime="20181201 17:27:24.651"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Create Valid User ${RANDOM_USERNAME}</arg>
 </arguments>
-<msg timestamp="20180728 16:43:40.378" level="INFO">Create Valid User WXEi4</msg>
-<status status="PASS" starttime="20180728 16:43:40.377" endtime="20180728 16:43:40.378"></status>
+<msg timestamp="20181201 17:27:24.652" level="INFO">Create Valid User lPwCa</msg>
+<status status="PASS" starttime="20181201 17:27:24.651" endtime="20181201 17:27:24.652"></status>
 </kw>
 <kw name="Attempt To Login With Credentials" library="LoginLibrary">
 <arguments>
 <arg>${RANDOM_USERNAME}</arg>
 <arg>${PASSWORD}</arg>
 </arguments>
-<status status="PASS" starttime="20180728 16:43:40.378" endtime="20180728 16:43:41.194"></status>
+<status status="PASS" starttime="20181201 17:27:24.652" endtime="20181201 17:27:25.984"></status>
 </kw>
 <kw name="Status Should Be" library="LoginLibrary">
 <arguments>
 <arg>Logged In</arg>
 </arguments>
-<msg timestamp="20180728 16:43:41.220" level="FAIL">Expected status should be 'Logged In' but was 'Log Into Facebook'.</msg>
-<status status="FAIL" starttime="20180728 16:43:41.194" endtime="20180728 16:43:41.220"></status>
+<msg timestamp="20181201 17:27:26.014" level="FAIL">Expected status should be 'Logged In' but was 'Log Into Facebook'.</msg>
+<status status="FAIL" starttime="20181201 17:27:25.984" endtime="20181201 17:27:26.014"></status>
 </kw>
 <tags>
 <tag>facebook</tag>
 <tag>UAT</tag>
 </tags>
-<status status="FAIL" starttime="20180728 16:43:36.646" endtime="20180728 16:43:41.220" critical="yes">Expected status should be 'Logged In' but was 'Log Into Facebook'.</status>
+<status status="FAIL" starttime="20181201 17:27:20.503" endtime="20181201 17:27:26.015" critical="yes">Expected status should be 'Logged In' but was 'Log Into Facebook'.</status>
 </test>
-<status status="FAIL" starttime="20180728 16:43:28.270" endtime="20180728 16:43:41.221"></status>
+<status status="FAIL" starttime="20181201 17:27:11.912" endtime="20181201 17:27:26.016"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="2">Critical Tests</stat>
-<stat pass="0" fail="2">All Tests</stat>
+<stat pass="1" fail="1">Critical Tests</stat>
+<stat pass="1" fail="1">All Tests</stat>
 </total>
 <tag>
-<stat pass="0" fail="2">facebook</stat>
-<stat pass="0" fail="2">UAT</stat>
+<stat pass="1" fail="1">facebook</stat>
+<stat pass="1" fail="1">UAT</stat>
 </tag>
 <suite>
-<stat pass="0" fail="2" id="s1" name="Facebook">Facebook</stat>
+<stat pass="1" fail="1" id="s1" name="Facebook">Facebook</stat>
 </suite>
 </statistics>
 <errors>
