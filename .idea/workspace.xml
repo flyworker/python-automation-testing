@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921b8f33-5a11-4765-a29d-0d451874128f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/course2/Person.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course2/test_person_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course2/function_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/course2/function_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course2/guass_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/course2/guass_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course2/test_guass_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/course2/test_guass_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/Test-case-template-xls.xls" beforeDir="false" afterPath="$PROJECT_DIR$/document/Test-case-template-xls.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/course2-3.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/document/course2-3.pptx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course2/mortgage_calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
+            <state relative-caret-position="1230">
               <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
             </state>
           </provider>
@@ -63,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course2/Person.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="345">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -75,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="94" column="10" lean-forward="true" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+            <state relative-caret-position="1410">
+              <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -84,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course1/practice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -93,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course2/test_guass_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="150">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -102,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/course2/test_person_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -221,7 +214,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="829" />
@@ -288,12 +281,6 @@
             <path>
               <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
-              <item name="course3" type="462c0819:PsiDirectoryNode" />
-              <item name="python_unit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-workshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-workshop" type="462c0819:PsiDirectoryNode" />
               <item name="course7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -354,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_person_function.TestGaussSum.test_student_set_name">
+  <component name="RunManager" selected="Python tests.Unittests for test_person_function.TestGaussSum">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -768,7 +755,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_guass_function.TestGaussSum.test_gass_sum_string" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_person_function.TestGaussSum" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -779,7 +766,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_guass_function.TestGaussSum.test_gass_sum_string&quot;" />
+      <option name="_new_target" value="&quot;test_person_function.TestGaussSum&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -829,19 +816,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_guass_function.TestGaussSum.test_gass_sum_string" />
       <item itemvalue="Python tests.Unittests in test_guass_function.py" />
       <item itemvalue="Python tests.Unittests for test_guass_function.TestGaussSum" />
       <item itemvalue="Python tests.Unittests for test_guass_function.TestGaussSum.test_gass_sum" />
       <item itemvalue="Python tests.Unittests for test_person_function.TestGaussSum.test_student_set_name" />
+      <item itemvalue="Python tests.Unittests for test_person_function.TestGaussSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_person_function.TestGaussSum" />
         <item itemvalue="Python tests.Unittests for test_person_function.TestGaussSum.test_student_set_name" />
         <item itemvalue="Python tests.Unittests for test_guass_function.TestGaussSum.test_gass_sum" />
         <item itemvalue="Python tests.Unittests for test_guass_function.TestGaussSum" />
         <item itemvalue="Python tests.Unittests in test_guass_function.py" />
-        <item itemvalue="Python tests.Unittests for test_guass_function.TestGaussSum.test_gass_sum_string" />
       </list>
     </recent_temporary>
   </component>
@@ -883,9 +870,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_python_unit_TestStringMethods_test_plus - 2018.07.21 at 15h 19m 55s.xml">
-      <configuration name="Unittests for python_unit.TestStringMethods.test_plus" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_python_new_TestStringMethods_test_plus - 2018.07.21 at 15h 33m 22s.xml">
       <configuration name="Unittests for python_new.TestStringMethods.test_plus" configurationId="tests" />
     </history-entry>
@@ -913,15 +897,17 @@
     <history-entry file="Unittests_for_test_person_function_TestGaussSum_test_student_set_name - 2019.05.11 at 17h 48m 21s.xml">
       <configuration name="Unittests for test_person_function.TestGaussSum.test_student_set_name" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_person_function_TestGaussSum - 2019.05.11 at 17h 48m 58s.xml">
+      <configuration name="Unittests for test_person_function.TestGaussSum" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="8677000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1024" height="696" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="828" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23828514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16842847" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24925224" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -934,7 +920,7 @@
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32663316" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.5968992" visible="true" weight="0.37913907" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.5968992" weight="0.37913907" />
       <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.29900333" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -947,7 +933,7 @@
       <window_info anchor="bottom" id="Salesforce" order="14" sideWeight="0.4978701" weight="0.32915717" />
       <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.5478615" weight="0.2740864" />
       <window_info anchor="bottom" id="Messages" order="16" />
-      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.16059603" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" visible="true" weight="0.13179348" />
       <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.40733197" side_tool="true" weight="0.28428093" />
       <window_info anchor="bottom" id="Python Console" order="19" weight="0.32943144" />
       <window_info anchor="right" id="SciView" order="0" />
@@ -1196,13 +1182,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/course4/api_test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1230,23 +1216,9 @@
     <entry file="file://$PROJECT_DIR$/course2/b.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="94" column="10" lean-forward="true" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course1/practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course2/mortgage_calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
+        <state relative-caret-position="1230">
           <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
         </state>
       </provider>
@@ -1265,6 +1237,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/course2/Person.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course1/practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course2/test_guass_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/course2/test_suite.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1274,30 +1277,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course2/test_guass_function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course2/test_person_function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course2/Person.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
         </state>
       </provider>
     </entry>
