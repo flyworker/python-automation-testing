@@ -1,12 +1,13 @@
 import unittest
 
 from course2.test_guass_function import TestGaussSum
+from course2.test_person_function import TestPerson
 
 
 def user_acceptance_test_suite():
     suite = unittest.TestSuite()
     suite.addTest(TestGaussSum('test_gass_sum_negative'))
-    suite.addTest(TestGaussSum('test_gass_sum_float'))
+    suite.addTest(TestPerson('test_student_set_name'))
     return suite
 
 
