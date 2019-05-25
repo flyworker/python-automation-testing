@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from selenium import webdriver
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
@@ -14,7 +15,6 @@ class AppDynamicsJob(unittest.TestCase):
         # as documented in https://docs.appdynamics.com/display/PRO44/Write+Your+First+Script
         self.driver = webdriver.Chrome("./chromedriver")
         self.driver.implicitly_wait(30)
-        self.base_url = "https://www.katalon.com/"
         self.verificationErrors = []
         self.accept_next_alert = True
 
@@ -22,16 +22,54 @@ class AppDynamicsJob(unittest.TestCase):
         driver = self.driver
         driver.get("https://www.skipthedishes.com/")
 
-        driver.find_element_by_name("address_display").click()
-        driver.find_element_by_name("address_display").clear()
-        driver.find_element_by_name("address_display").send_keys("Rue Sherbrooke Ouest, 666")
+        driver.find_element_by_xpath('//input').click()
+
+        driver.find_element_by_xpath('//input').send_keys("666 Rue Sherbrooke Ouest")
+        driver.find_element_by_xpath("//p/span").click()
         time.sleep(2)
-        driver.find_element_by_xpath('//*[@id="restaurant-search-form"]/div/div[1]/div/div[1]/div/div[1]/ul/li[1]/a').click()
-        driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Reset Pin'])[1]/following::button[1]").click()
-        driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='No restaurants found matching these filters.'])[1]/following::div[7]").click()
-        driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Close'])[2]/following::h1[1]").click()
-        try: self.assertEqual(u"Ta Pies (cuisine néo-zélandaise et australienne) 9.9", driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Close'])[2]/following::h1[1]").text)
-        except AssertionError as e: self.verificationErrors.append(str(e))
+        driver.find_element_by_xpath(
+            '//*[@id="root"]/div/main/div[1]/div/div[1]/div[1]/div/div/div/div/button').click()
+
+        for element in driver.find_elements_by_xpath('//div[@data-cy="RestaurantRow"]/a/div/div/div[1]/div[2]/div/div'):
+            print(element.text)
+
+        driver.find_element_by_xpath(
+            '//*[@id="root"]/div/main/div[1]/div/div/div/div[4]/div/div/div/div[1]/a/div/div[2]').click()
+
+
+        driver.find_element_by_xpath(
+            '//*[@id="root"]/div/main/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/div[2]/div[14]/div/div/div[2]/div[1]/div/div[1]/div[1]/h3').click()
+        driver.find_element_by_xpath('//button/span[1]/div/div[2]').click()
+        time.sleep(3)
+        # Add 2nd product
+        # parent_h = driver.current_window_handle
+        driver.find_element_by_xpath(
+            '//*[@id="root"]/div/main/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/div[2]/div[14]/div/div/div[2]/div[3]/div/div[1]/div[1]/h3/span').click()
+        time.sleep(3)
+
+
+        # driver.find_element_by_xpath('/html/body/div[10]/div[2]/div[1]/div[1]/div[3]/h6').click()
+        driver.find_element_by_xpath('//button/span[1]/div/div[2]').click()
+        #
+        # driver.execute_script("window.scrollTo(550,300)")
+        mainmenu = driver.find_element_by_xpath(
+            '/html/body/div[10]/div[2]/div[2]/div[2]/div[1]/div[2]/ul/div[1]/div/div[1]')
+        action = ActionChains(driver)
+        action.move_to_element(mainmenu).perform()
+        time.sleep(3)
+        mainmenu.click()
+
+        driver.find_element_by_xpath('//button/span[1]/div/div[2]').click()
+        # do stuff in the popup
+        # popup window closes
+        # driver.switch_to.window(parent_h)
+        item1_amount=float(driver.find_element_by_xpath(
+            "/html/body/div[7]/div/div/div/div/div/div/div[1]/div[2]/div[2]/div/div/div[1]/div[1]/div[1]/h3/span").text[1:])
+        item2_amount=float(driver.find_element_by_xpath(
+            "/html/body/div[7]/div/div/div/div/div/div/div[1]/div[2]/div[2]/div/div/div[2]/div[1]/div[1]/h3/span").text[1:])
+        total_amount=float(driver.find_element_by_xpath(
+            "//span[contains(.,'$9.49')]").text[1:])
+        self.assertEqual(item1_amount+item2_amount,total_amount+0.01)
     def is_element_present(self, how, what):
         try:
             self.driver.find_element(by=how, value=what)

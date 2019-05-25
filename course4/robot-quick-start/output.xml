@@ -1,48 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.0.4 (Python 3.6.2 on darwin)" generated="20181201 16:56:02.529">
-<suite id="s1" name="Sample" source="/Users/ccao/python-workshop/course4/robot-quick-start/sample.robot">
-<kw name="Setup chromedriver" type="setup">
-<kw name="Set Environment Variable" library="OperatingSystem">
-<doc>Sets an environment variable to a specified value.</doc>
+<robot generator="Robot 3.0.4 (Python 3.6.2 on darwin)" generated="20190525 16:56:36.999">
+<suite id="s1" name="QuickStart" source="/Users/ccao/python-workshop/course4/robot-quick-start/QuickStart.robot">
+<test id="s1-t1" name="User status is stored in database">
+<kw name="Create valid user">
 <arguments>
-<arg>webdriver.chrome.driver</arg>
-<arg>./robot_lib/chromedriver</arg>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
 </arguments>
-<msg timestamp="20181201 16:56:02.670" level="INFO">Environment variable 'webdriver.chrome.driver' set to value './robot_lib/chromedriver'.</msg>
-<status status="PASS" starttime="20181201 16:56:02.670" endtime="20181201 16:56:02.670"></status>
-</kw>
-<status status="PASS" starttime="20181201 16:56:02.669" endtime="20181201 16:56:02.670"></status>
-</kw>
-<test id="s1-t1" name="Take an annotated screenshot of RobotFramework.org">
-<kw name="Open Browser" library="Selenium2Library">
-<doc>Opens a new browser instance to the given ``url``.</doc>
+<kw name="Create User" library="LoginLibrary">
 <arguments>
-<arg>http://robotframework.org/</arg>
+<arg>${username}</arg>
+<arg>${password}</arg>
 </arguments>
-<msg timestamp="20181201 16:56:02.671" level="INFO">Opening browser 'firefox' to base url 'http://robotframework.org/'.</msg>
-<kw name="Capture Page Screenshot" library="Selenium2Library">
-<doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20181201 16:56:02.686" level="INFO">Cannot capture screenshot because no browser is open.</msg>
-<status status="PASS" starttime="20181201 16:56:02.685" endtime="20181201 16:56:02.686"></status>
+<status status="PASS" starttime="20190525 16:56:37.169" endtime="20190525 16:56:37.239"></status>
 </kw>
-<msg timestamp="20181201 16:56:02.688" level="FAIL">WebDriverException: Message: 'geckodriver' executable needs to be in PATH. 
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>SUCCESS</arg>
+</arguments>
+<status status="PASS" starttime="20190525 16:56:37.239" endtime="20190525 16:56:37.240"></status>
+</kw>
+<status status="PASS" starttime="20190525 16:56:37.168" endtime="20190525 16:56:37.240"></status>
+</kw>
+<kw name="Database Should Contain">
+<arguments>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<arg>Inactive</arg>
+</arguments>
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${DATABASE FILE}</arg>
+</arguments>
+<assign>
+<var>${database}</var>
+</assign>
+<msg timestamp="20190525 16:56:37.243" level="INFO" html="yes">Getting file '&lt;a href="file:///var/folders/pc/fxtczc_j3_37b08vcjxv59p00000gn/T/robotframework-quickstart-db.txt"&gt;/var/folders/pc/fxtczc_j3_37b08vcjxv59p00000gn/T/robotframework-quickstart-db.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20190525 16:56:37.243" level="INFO">${database} = fred	P4ssw0rd	Active
+betty	P4ssw0rd	Inactive
+janedoe	J4n3D0e	Inactive
 </msg>
-<status status="FAIL" starttime="20181201 16:56:02.671" endtime="20181201 16:56:02.688"></status>
+<status status="PASS" starttime="20190525 16:56:37.242" endtime="20190525 16:56:37.243"></status>
 </kw>
-<status status="FAIL" starttime="20181201 16:56:02.670" endtime="20181201 16:56:02.688" critical="yes">WebDriverException: Message: 'geckodriver' executable needs to be in PATH. 
-</status>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${database}</arg>
+<arg>${username}\t${password}\t${status}\n</arg>
+</arguments>
+<status status="PASS" starttime="20190525 16:56:37.243" endtime="20190525 16:56:37.244"></status>
+</kw>
+<status status="PASS" starttime="20190525 16:56:37.241" endtime="20190525 16:56:37.244"></status>
+</kw>
+<kw name="Login">
+<arguments>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+</arguments>
+<kw name="Attempt To Login With Credentials" library="LoginLibrary">
+<arguments>
+<arg>${username}</arg>
+<arg>${password}</arg>
+</arguments>
+<status status="PASS" starttime="20190525 16:56:37.244" endtime="20190525 16:56:37.316"></status>
+</kw>
+<kw name="Status Should Be" library="LoginLibrary">
+<arguments>
+<arg>Logged In</arg>
+</arguments>
+<status status="PASS" starttime="20190525 16:56:37.317" endtime="20190525 16:56:37.317"></status>
+</kw>
+<status status="PASS" starttime="20190525 16:56:37.244" endtime="20190525 16:56:37.317"></status>
+</kw>
+<kw name="Database Should Contain">
+<arguments>
+<arg>${USERNAME}</arg>
+<arg>${PASSWORD}</arg>
+<arg>Active</arg>
+</arguments>
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>${DATABASE FILE}</arg>
+</arguments>
+<assign>
+<var>${database}</var>
+</assign>
+<msg timestamp="20190525 16:56:37.319" level="INFO" html="yes">Getting file '&lt;a href="file:///var/folders/pc/fxtczc_j3_37b08vcjxv59p00000gn/T/robotframework-quickstart-db.txt"&gt;/var/folders/pc/fxtczc_j3_37b08vcjxv59p00000gn/T/robotframework-quickstart-db.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20190525 16:56:37.319" level="INFO">${database} = fred	P4ssw0rd	Active
+betty	P4ssw0rd	Inactive
+janedoe	J4n3D0e	Active
+</msg>
+<status status="PASS" starttime="20190525 16:56:37.318" endtime="20190525 16:56:37.319"></status>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<arguments>
+<arg>${database}</arg>
+<arg>${username}\t${password}\t${status}\n</arg>
+</arguments>
+<status status="PASS" starttime="20190525 16:56:37.319" endtime="20190525 16:56:37.320"></status>
+</kw>
+<status status="PASS" starttime="20190525 16:56:37.318" endtime="20190525 16:56:37.320"></status>
+</kw>
+<tags>
+<tag>database</tag>
+<tag>quickstart</tag>
+<tag>variables</tag>
+</tags>
+<status status="PASS" starttime="20190525 16:56:37.167" endtime="20190525 16:56:37.320" critical="yes"></status>
 </test>
-<status status="FAIL" starttime="20181201 16:56:02.530" endtime="20181201 16:56:02.689"></status>
+<status status="PASS" starttime="20190525 16:56:37.000" endtime="20190525 16:56:37.322"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1">Critical Tests</stat>
-<stat pass="0" fail="1">All Tests</stat>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
 </total>
 <tag>
+<stat pass="1" fail="0">database</stat>
+<stat pass="1" fail="0">quickstart</stat>
+<stat pass="1" fail="0">variables</stat>
 </tag>
 <suite>
-<stat pass="0" fail="1" id="s1" name="Sample">Sample</stat>
+<stat pass="1" fail="0" id="s1" name="QuickStart">QuickStart</stat>
 </suite>
 </statistics>
 <errors>

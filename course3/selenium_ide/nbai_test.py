@@ -12,19 +12,24 @@ class AppDynamicsJob(unittest.TestCase):
     def setUp(self):
         # AppDynamics will automatically override this web driver
         # as documented in https://docs.appdynamics.com/display/PRO44/Write+Your+First+Script
-        self.driver = webdriver.Chrome("./chromedriver")
+        self.driver = webdriver.Chrome("./../python_unit/chromedriver")
         self.driver.implicitly_wait(30)
-        self.base_url = "https://www.katalon.com/"
         self.verificationErrors = []
         self.accept_next_alert = True
 
     def test_app_dynamics_job(self):
         driver = self.driver
-        driver.get("https://www.concordia.ca/")
-        driver.find_element_by_link_text("Admissions").click()
+        driver.get("https://nbai.io/")
+        # time.sleep(3)
+        driver.find_element_by_xpath("//a[contains(text(),'Sign up')]").click()
+        driver.find_element_by_xpath("//a[contains(text(),'Sign Up')]").click()
+        driver.find_element_by_xpath("//input[@id='firstName']").send_keys("charles")
+        driver.find_element_by_xpath("//button[@id='m_login_signup_submit']").click()
+        print(driver.find_element_by_xpath(
+                '//*[@id="m_login"]/div[1]/div[2]/div[1]/div/div[2]/form/div[5]').text)
         try:
-            self.assertEqual("Admissions", driver.find_element_by_xpath(
-                "(.//*[normalize-space(text()) and normalize-space(.)='Admissions'])[3]/following::h1[1]").text)
+            self.assertEqual("This field is required.\nMinimum length of 6 including a letter and a number", driver.find_element_by_xpath(
+                '//*[@id="m_login"]/div[1]/div[2]/div[1]/div/div[2]/form/div[5]').text)
         except AssertionError as e:
             self.verificationErrors.append(str(e))
 
