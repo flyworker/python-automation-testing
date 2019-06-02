@@ -4,7 +4,7 @@ Library           justeat_lib/OrderLibrary.py
 Library           Selenium2Library
 Library           String
 Library           Selenium2Screenshots
-Test Teardown  Close Browser
+Test Teardown   Close Browser
 *** Variables ***
 ${ADDRESS}              Rue Sherbrooke Ouest, 666
 ${STORE_NAME}           Restaurant Nouilles Épicées Express
