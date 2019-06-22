@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921b8f33-5a11-4765-a29d-0d451874128f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/course6/read_data.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course6/employee-2018-03-29 00:39:44.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/course6/read_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/course6/read_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course6/temp_employee2018-03-29 00:39:44.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/course4.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/document/course4.ppt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/~$API Testing.pptx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,52 +26,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course4/api_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course4/google_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course5/read_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course6/read_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="171">
+              <caret line="53" selection-start-line="53" selection-end-line="58" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/course6/read_data.ipynb">
+        <entry file="file://$PROJECT_DIR$/course6/read_data_2.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course6/read_data.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course2/test_guass_function.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="4" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course2/test_person_function.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -388,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.read_data (1)">
+  <component name="RunManager" selected="Python tests.Unittests for test_person_function.TestPerson">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -829,33 +824,33 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for justeat.AppDynamicsJob" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_guass_function.TestGaussSum.test_gass_sum" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4/justeat" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;justeat.AppDynamicsJob&quot;" />
+      <option name="_new_target" value="&quot;test_guass_function.TestGaussSum.test_gass_sum&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_person_function.TestPerson" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-workshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course4/justeat" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;justeat.AppDynamicsJob.test_app_dynamics_job&quot;" />
+      <option name="_new_target" value="&quot;test_person_function.TestPerson&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -877,17 +872,17 @@
     <list>
       <item itemvalue="Python.read_data" />
       <item itemvalue="Python.read_data (1)" />
-      <item itemvalue="Python tests.Unittests for justeat.AppDynamicsJob" />
-      <item itemvalue="Python tests.Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" />
       <item itemvalue="Python tests.Unittests for google_test.TestStringMethods.test_distance" />
+      <item itemvalue="Python tests.Unittests for test_guass_function.TestGaussSum.test_gass_sum" />
+      <item itemvalue="Python tests.Unittests for test_person_function.TestPerson" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_person_function.TestPerson" />
+        <item itemvalue="Python tests.Unittests for test_guass_function.TestGaussSum.test_gass_sum" />
         <item itemvalue="Python.read_data (1)" />
         <item itemvalue="Python.read_data" />
         <item itemvalue="Python tests.Unittests for google_test.TestStringMethods.test_distance" />
-        <item itemvalue="Python tests.Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" />
-        <item itemvalue="Python tests.Unittests for justeat.AppDynamicsJob" />
       </list>
     </recent_temporary>
   </component>
@@ -929,12 +924,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2019.05.25 at 15h 27m 15s.xml">
-      <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2019.05.25 at 15h 30m 28s.xml">
-      <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_justeat_AppDynamicsJob_test_app_dynamics_job - 2019.05.25 at 15h 34m 46s.xml">
       <configuration name="Unittests for justeat.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
     </history-entry>
@@ -959,13 +948,18 @@
     <history-entry file="Unittests_for_google_test_TestStringMethods_test_distance - 2019.06.02 at 16h 09m 07s.xml">
       <configuration name="Unittests for google_test.TestStringMethods.test_distance" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_guass_function_TestGaussSum_test_gass_sum - 2019.06.22 at 16h 26m 20s.xml">
+      <configuration name="Unittests for test_guass_function.TestGaussSum.test_gass_sum" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_person_function_TestPerson - 2019.06.22 at 16h 26m 42s.xml">
+      <configuration name="Unittests for test_person_function.TestPerson" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="8677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1024" height="694" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21535394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24925224" />
@@ -980,7 +974,7 @@
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.3255814" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.5968992" weight="0.040871933" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.5968992" visible="true" weight="0.33554816" />
       <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.60717845" weight="0.29575163" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -993,7 +987,7 @@
       <window_info anchor="bottom" id="Salesforce" order="14" sideWeight="0.4978701" weight="0.32915717" />
       <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.5478615" weight="0.2740864" />
       <window_info anchor="bottom" id="Messages" order="16" />
-      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.17810458" />
+      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.592668" weight="0.17774086" />
       <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.40733197" side_tool="true" weight="0.28428093" />
       <window_info anchor="bottom" id="Python Console" order="19" weight="0.32784185" />
       <window_info anchor="right" id="SciView" order="0" />
@@ -1131,13 +1125,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/QuickStart.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course4/private.py" />
     <entry file="file://$PROJECT_DIR$/course4/robot-quick-start/sample.robot">
       <provider selected="true" editor-type-id="text-editor">
@@ -1194,26 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course2/test_guass_function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course2/test_person_function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1467,14 +1434,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course6/read_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+    <entry file="file://$PROJECT_DIR$/course6/read_data.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course6/read_data.ipynb">
+    <entry file="file://$PROJECT_DIR$/course2/test_guass_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="4" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course2/test_person_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course6/read_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="53" selection-start-line="53" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course6/read_data_2.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />

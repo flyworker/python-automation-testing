@@ -22,6 +22,7 @@ def add_data(data):
     # try:
     # Execute the SQL command
     cursor.execute(sql)
+
     cursor.close()
     db.commit()
     db.close()
