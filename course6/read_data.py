@@ -1,15 +1,15 @@
-import datetime
 import pymysql
 import csv
 import os
 from time import gmtime, strftime
-# Open database connection
-from bitcoin import PADDING
 
-domain = ""
-user = ""
+
+domain = " "
+user = " "
 password = user
-db_name = "ccao"
+db_name = " "
+start_date = '2017-04-19 18:50:47'
+end_date = '2018-02-26 16:22:54'
 
 
 def add_data(data):
