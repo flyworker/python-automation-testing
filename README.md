@@ -1,7 +1,6 @@
-# Automation Python
+# Python Automation Testing
 
- Upon completion of this class, the student will be able to write non trivial Python programs dealing with a wide variety of subject matter domains. Topics include language components, working with a professional IDE,
- control flow constructs, strings, I/O, collections, classes, modules, and RESTful service. 
+ Upon completion of this class, the student will be able to automate software testing with Python, Selenium WebDriver, and API, Postman, focusing on web applications. Topics include language components, working with a professional IDE, objet oriented design, unit tests, performance testing and RESTful service. 
  The course is supplemented with many hands-on labs, solutions, and code examples.
     
 # Course Outline
@@ -18,7 +17,8 @@
 * Object Oriented Design
 
 ### Python with Selenium(8h)
-* Python Selenium Driver
+* Selenium WebDriver
+* Pytest framework
 * Robot framework
 
 ### Database with python(8h)
@@ -28,8 +28,11 @@
 ### API Testing(8h)
 * Introduction to API
 * Restful Service 
+* Build a flask restful app
+* API testing with pytest
 
 ### Performance Testing(2h)
+* Performance Testing vs Load Testing vs Stress Testing
 * Jmeter Testing
 
 ### Testing and Continuous Integration(3h)
@@ -37,7 +40,8 @@
 * Structure regression
 * Business facing regression
 * Static analysis
-* Jenkins CI
+* Jenkins/Gitlab CI
+* Dockerized app testing
 
 ### Job Search and CV(2h)
 
