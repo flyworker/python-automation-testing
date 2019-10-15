@@ -13,33 +13,32 @@
 ### Python Programming Basics(8h)
 * Basic Syntax
 * Types of Variables and their declaration
-* If else condition usage and examples
+* Control condition flow
 * Object Oriented Design
 
 ### Python with Selenium(8h)
 * Selenium WebDriver
-* Pytest framework
-* Robot framework
+* Pytest Framework
+* Robot Framework
 
 ### Database with python(8h)
-* DataBase introduction
-* Python CRUD operation
+* DataBase Introduction
+* Python CRUD Operation
 
 ### API Testing(8h)
 * Introduction to API
 * Restful Service 
-* Build a flask restful app
-* API testing with pytest
+* RESTful Web service with Flask Microframework
+* API Testing with Pytest
 
 ### Performance Testing(2h)
 * Performance Testing vs Load Testing vs Stress Testing
 * Jmeter Testing
 
 ### Testing and Continuous Integration(3h)
-* Build environments
-* Structure regression
-* Business facing regression
-* Static analysis
+* Agile Methodology 
+* Continues Build Environments
+* Static Analysis
 * Jenkins/Gitlab CI
 * Dockerized app testing
 
